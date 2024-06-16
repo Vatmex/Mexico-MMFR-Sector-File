@@ -442,7 +442,7 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
-        <Position Name="Aproximación La Paz - LPAPP" Type="ASD" DefaultCenter="+242441.410-1101750.755" DefaultRange="180" MagneticVariation="-10" VisibilityRange="150">
+        <Position Name="Aproximación La Paz - LPAPP" Type="ASD" DefaultCenter="+242709.307-1101812.233" DefaultRange="200" MagneticVariation="-10" VisibilityRange="150">
             <Sectors>
                 <Sector Name="LPAPP" />
             </Sectors>
