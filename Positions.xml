@@ -5227,7 +5227,7 @@
             </Sectors>
             <Maps>
                 <Map Name="ACC Monterrey/Radar - Cobertura" />
-                <Map Name="ACC Monterrey/Sector - Radioayudas" />
+                <Map Name="Universal/Sector - Radioayudas" />
                 <Map Name="ACC Monterrey/Limites - Sectores" />
                 <Map Name="ACC Monterrey/Limites - Terminales" />
 
@@ -5268,7 +5268,7 @@
             </Sectors>
             <Maps>
                 <Map Name="ACC Monterrey/Radar - Cobertura" />
-                <Map Name="ACC Monterrey/Sector - Radioayudas" />
+                <Map Name="Universal/Sector - Radioayudas" />
                 <Map Name="ACC Monterrey/Limites - Sectores" />
                 <Map Name="ACC Monterrey/Limites - Terminales" />
 
@@ -5310,7 +5310,7 @@
             </Sectors>
             <Maps>
                 <Map Name="ACC Monterrey/Radar - Cobertura" />
-                <Map Name="ACC Monterrey/Sector - Radioayudas" />
+                <Map Name="Universal/Sector - Radioayudas" />
                 <Map Name="ACC Monterrey/Limites - Sectores" />
                 <Map Name="ACC Monterrey/Limites - Terminales" />
 

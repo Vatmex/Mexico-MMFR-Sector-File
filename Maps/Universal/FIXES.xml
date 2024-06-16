@@ -1012,83 +1012,84 @@
     <Map Type="System" Name="Sector - Radioayudas" Priority="1" Center="+204657.054-0865400.018">
         <Symbol Type="HollowSquare">
             <Point>ACA</Point>
+            <Point>ADN</Point>
             <Point>AGU</Point>
-            <Point>ELQ</Point>
             <Point>APN</Point>
-            <Point>SJD</Point>
-            <Point>CPE</Point>
-            <Point>CUN</Point>
+            <Point>BJX</Point>
+            <Point>CDR</Point>
+            <Point>CEN</Point>
+            <Point>CJS</Point>
             <Point>CME</Point>
             <Point>COL</Point>
-            <Point>CDR</Point>
-            <Point>CZM</Point>
-            <Point>CUA</Point>
-            <Point>CVJ</Point>
-            <Point>CUL</Point>
+            <Point>CPE</Point>
+            <Point>CRL</Point>
+            <Point>CSL</Point>
             <Point>CTM</Point>
+            <Point>CUA</Point>
+            <Point>CUL</Point>
+            <Point>CUN</Point>
             <Point>CUU</Point>
+            <Point>CVJ</Point>
+            <Point>CVM</Point>
+            <Point>CZA</Point>
+            <Point>CZM</Point>
             <Point>DGO</Point>
+            <Point>ELQ</Point>
             <Point>ENS</Point>
-            <Point>PXM</Point>
             <Point>GDL</Point>
+            <Point>GRN</Point>
             <Point>GYM</Point>
             <Point>HMO</Point>
             <Point>HUX</Point>
             <Point>IZT</Point>
-            <Point>CJS</Point>
-            <Point>CZA</Point>
             <Point>LAP</Point>
-            <Point>BJX</Point>
-            <Point>LTO</Point>
-            <Point>CSL</Point>
-            <Point>SLM</Point>
-            <Point>ZLO</Point>
-            <Point>MAM</Point>
-            <Point>MZT</Point>
-            <Point>MID</Point>
-            <Point>MXL</Point>
-            <Point>MEX</Point>
-            <Point>MTT</Point>
             <Point>LMM</Point>
-            <Point>MOV</Point>
-            <Point>MTY</Point>
+            <Point>LTO</Point>
+            <Point>MAM</Point>
+            <Point>MEX</Point>
+            <Point>MID</Point>
             <Point>MLM</Point>
-            <Point>GRN</Point>
-            <Point>NLD</Point>
+            <Point>MOV</Point>
+            <Point>MTT</Point>
+            <Point>MTY</Point>
+            <Point>MXL</Point>
+            <Point>MZT</Point>
             <Point>NCP</Point>
-            <Point>TTM</Point>
+            <Point>NLD</Point>
             <Point>OAX</Point>
-            <Point>CEN</Point>
+            <Point>PAZ</Point>
+            <Point>PBC</Point>
+            <Point>PNG</Point>
+            <Point>PPE</Point>
             <Point>PQE</Point>
             <Point>PTJ</Point>
-            <Point>PPE</Point>
-            <Point>PNG</Point>
-            <Point>PAZ</Point>
-            <Point>SLP</Point>
-            <Point>PBC</Point>
+            <Point>PVR</Point>
+            <Point>PXM</Point>
             <Point>QET</Point>
-            <Point>SQN</Point>
             <Point>REX</Point>
-            <Point>ADN</Point>
+            <Point>SJD</Point>
+            <Point>SLM</Point>
+            <Point>SLP</Point>
             <Point>SLW</Point>
+            <Point>SQN</Point>
             <Point>TAM</Point>
-            <Point>TMN</Point>
             <Point>TAP</Point>
-            <Point>TNY</Point>
             <Point>TEQ</Point>
             <Point>TGM</Point>
+            <Point>TGZ</Point>
             <Point>TIJ</Point>
             <Point>TLC</Point>
+            <Point>TMN</Point>
+            <Point>TNY</Point>
             <Point>TRC</Point>
-            <Point>TGZ</Point>
+            <Point>TTM</Point>
             <Point>UPN</Point>
-            <Point>PVR</Point>
             <Point>VER</Point>
-            <Point>CVM</Point>
             <Point>VSA</Point>
-            <Point>ZCL</Point>
             <Point>ZAP</Point>
+            <Point>ZCL</Point>
             <Point>ZIH</Point>
+            <Point>ZLO</Point>
             <!--Foraneos-->
             <Point>BRO</Point>
             <Point>COT</Point>
@@ -1122,83 +1123,84 @@
         </Symbol>
         <Symbol Type="Circle">
             <Point>ACA</Point>
+            <Point>ADN</Point>
             <Point>AGU</Point>
-            <Point>ELQ</Point>
             <Point>APN</Point>
-            <Point>SJD</Point>
-            <Point>CPE</Point>
-            <Point>CUN</Point>
+            <Point>BJX</Point>
+            <Point>CDR</Point>
+            <Point>CEN</Point>
+            <Point>CJS</Point>
             <Point>CME</Point>
             <Point>COL</Point>
-            <Point>CDR</Point>
-            <Point>CZM</Point>
-            <Point>CUA</Point>
-            <Point>CVJ</Point>
-            <Point>CUL</Point>
+            <Point>CPE</Point>
+            <Point>CRL</Point>
+            <Point>CSL</Point>
             <Point>CTM</Point>
+            <Point>CUA</Point>
+            <Point>CUL</Point>
+            <Point>CUN</Point>
             <Point>CUU</Point>
+            <Point>CVJ</Point>
+            <Point>CVM</Point>
+            <Point>CZA</Point>
+            <Point>CZM</Point>
             <Point>DGO</Point>
+            <Point>ELQ</Point>
             <Point>ENS</Point>
-            <Point>PXM</Point>
             <Point>GDL</Point>
+            <Point>GRN</Point>
             <Point>GYM</Point>
             <Point>HMO</Point>
             <Point>HUX</Point>
             <Point>IZT</Point>
-            <Point>CJS</Point>
-            <Point>CZA</Point>
             <Point>LAP</Point>
-            <Point>BJX</Point>
-            <Point>LTO</Point>
-            <Point>CSL</Point>
-            <Point>SLM</Point>
-            <Point>ZLO</Point>
-            <Point>MAM</Point>
-            <Point>MZT</Point>
-            <Point>MID</Point>
-            <Point>MXL</Point>
-            <Point>MEX</Point>
-            <Point>MTT</Point>
             <Point>LMM</Point>
-            <Point>MOV</Point>
-            <Point>MTY</Point>
+            <Point>LTO</Point>
+            <Point>MAM</Point>
+            <Point>MEX</Point>
+            <Point>MID</Point>
             <Point>MLM</Point>
-            <Point>GRN</Point>
-            <Point>NLD</Point>
+            <Point>MOV</Point>
+            <Point>MTT</Point>
+            <Point>MTY</Point>
+            <Point>MXL</Point>
+            <Point>MZT</Point>
             <Point>NCP</Point>
-            <Point>TTM</Point>
+            <Point>NLD</Point>
             <Point>OAX</Point>
-            <Point>CEN</Point>
+            <Point>PAZ</Point>
+            <Point>PBC</Point>
+            <Point>PNG</Point>
+            <Point>PPE</Point>
             <Point>PQE</Point>
             <Point>PTJ</Point>
-            <Point>PPE</Point>
-            <Point>PNG</Point>
-            <Point>PAZ</Point>
-            <Point>SLP</Point>
-            <Point>PBC</Point>
+            <Point>PVR</Point>
+            <Point>PXM</Point>
             <Point>QET</Point>
-            <Point>SQN</Point>
             <Point>REX</Point>
-            <Point>ADN</Point>
+            <Point>SJD</Point>
+            <Point>SLM</Point>
+            <Point>SLP</Point>
             <Point>SLW</Point>
+            <Point>SQN</Point>
             <Point>TAM</Point>
-            <Point>TMN</Point>
             <Point>TAP</Point>
-            <Point>TNY</Point>
             <Point>TEQ</Point>
             <Point>TGM</Point>
+            <Point>TGZ</Point>
             <Point>TIJ</Point>
             <Point>TLC</Point>
+            <Point>TMN</Point>
+            <Point>TNY</Point>
             <Point>TRC</Point>
-            <Point>TGZ</Point>
+            <Point>TTM</Point>
             <Point>UPN</Point>
-            <Point>PVR</Point>
             <Point>VER</Point>
-            <Point>CVM</Point>
             <Point>VSA</Point>
-            <Point>ZCL</Point>
             <Point>ZAP</Point>
+            <Point>ZCL</Point>
             <Point>ZIH</Point>
+            <Point>ZLO</Point>
             <!--Foraneos-->
             <Point>BRO</Point>
             <Point>COT</Point>
@@ -1234,83 +1236,84 @@
     <Map Type="System" Name="Sector - Radioayudas (Nombres)" Priority="1" Center="+204657.054-0865400.018">
         <Label HasLeader="false">
             <Point>ACA</Point>
+            <Point>ADN</Point>
             <Point>AGU</Point>
-            <Point>ELQ</Point>
             <Point>APN</Point>
-            <Point>SJD</Point>
-            <Point>CPE</Point>
-            <Point>CUN</Point>
+            <Point>BJX</Point>
+            <Point>CDR</Point>
+            <Point>CEN</Point>
+            <Point>CJS</Point>
             <Point>CME</Point>
             <Point>COL</Point>
-            <Point>CDR</Point>
-            <Point>CZM</Point>
-            <Point>CUA</Point>
-            <Point>CVJ</Point>
-            <Point>CUL</Point>
+            <Point>CPE</Point>
+            <Point>CRL</Point>
+            <Point>CSL</Point>
             <Point>CTM</Point>
+            <Point>CUA</Point>
+            <Point>CUL</Point>
+            <Point>CUN</Point>
             <Point>CUU</Point>
+            <Point>CVJ</Point>
+            <Point>CVM</Point>
+            <Point>CZA</Point>
+            <Point>CZM</Point>
             <Point>DGO</Point>
+            <Point>ELQ</Point>
             <Point>ENS</Point>
-            <Point>PXM</Point>
             <Point>GDL</Point>
+            <Point>GRN</Point>
             <Point>GYM</Point>
             <Point>HMO</Point>
             <Point>HUX</Point>
             <Point>IZT</Point>
-            <Point>CJS</Point>
-            <Point>CZA</Point>
             <Point>LAP</Point>
-            <Point>BJX</Point>
-            <Point>LTO</Point>
-            <Point>CSL</Point>
-            <Point>SLM</Point>
-            <Point>ZLO</Point>
-            <Point>MAM</Point>
-            <Point>MZT</Point>
-            <Point>MID</Point>
-            <Point>MXL</Point>
-            <Point>MEX</Point>
-            <Point>MTT</Point>
             <Point>LMM</Point>
-            <Point>MOV</Point>
-            <Point>MTY</Point>
+            <Point>LTO</Point>
+            <Point>MAM</Point>
+            <Point>MEX</Point>
+            <Point>MID</Point>
             <Point>MLM</Point>
-            <Point>GRN</Point>
-            <Point>NLD</Point>
+            <Point>MOV</Point>
+            <Point>MTT</Point>
+            <Point>MTY</Point>
+            <Point>MXL</Point>
+            <Point>MZT</Point>
             <Point>NCP</Point>
-            <Point>TTM</Point>
+            <Point>NLD</Point>
             <Point>OAX</Point>
-            <Point>CEN</Point>
+            <Point>PAZ</Point>
+            <Point>PBC</Point>
+            <Point>PNG</Point>
+            <Point>PPE</Point>
             <Point>PQE</Point>
             <Point>PTJ</Point>
-            <Point>PPE</Point>
-            <Point>PNG</Point>
-            <Point>PAZ</Point>
-            <Point>SLP</Point>
-            <Point>PBC</Point>
+            <Point>PVR</Point>
+            <Point>PXM</Point>
             <Point>QET</Point>
-            <Point>SQN</Point>
             <Point>REX</Point>
-            <Point>ADN</Point>
+            <Point>SJD</Point>
+            <Point>SLM</Point>
+            <Point>SLP</Point>
             <Point>SLW</Point>
+            <Point>SQN</Point>
             <Point>TAM</Point>
-            <Point>TMN</Point>
             <Point>TAP</Point>
-            <Point>TNY</Point>
             <Point>TEQ</Point>
             <Point>TGM</Point>
+            <Point>TGZ</Point>
             <Point>TIJ</Point>
             <Point>TLC</Point>
+            <Point>TMN</Point>
+            <Point>TNY</Point>
             <Point>TRC</Point>
-            <Point>TGZ</Point>
+            <Point>TTM</Point>
             <Point>UPN</Point>
-            <Point>PVR</Point>
             <Point>VER</Point>
-            <Point>CVM</Point>
             <Point>VSA</Point>
-            <Point>ZCL</Point>
             <Point>ZAP</Point>
+            <Point>ZCL</Point>
             <Point>ZIH</Point>
+            <Point>ZLO</Point>
             <!--Foraneos-->
             <Point>BRO</Point>
             <Point>COT</Point>
