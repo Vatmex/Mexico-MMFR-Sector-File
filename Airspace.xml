@@ -414,6 +414,14 @@
                 <SID Name="ENS3" Default="True" />
             </Runway>
         </Airport>
+        <Airport Name="MMGA">
+            <Runway Name="10" DataRunway="10">
+                <SID Name="CRL1A" Default="True" />
+            </Runway>
+            <Runway Name="28" DataRunway="28">
+                <SID Name="CRL1B" Default="True" />
+            </Runway>
+        </Airport>
         <Airport Name="MMGL">
             <Runway Name="11" DataRunway="11">
                 <SID Name="GDL1A" Default="True" />
@@ -6648,6 +6656,15 @@
         <SID Name="ENS3" Airport="MMES" Runways="29">
             <Route Runway="29">ENS</Route>
         </SID>
+        <!-- *********** MMGA *********** -->
+        <!-- MMGA-SID-1 -->
+        <SID Name="CRL1A" Airport="MMGA" Runways="10">
+            <Route Runway="10">CRL</Route>
+        </SID>
+        <!-- MMGA-SID-2 -->
+        <SID Name="CRL1B" Airport="MMGA" Runways="28">
+            <Route Runway="28">CRL</Route>
+        </SID>
         <!--MMGL-->
         <SID Name="GDL1A" Airport="MMGL" Runways="11">
             <Route Runway="11">GDL</Route>
@@ -10018,8 +10035,8 @@
             <Runway Name="29" Position="+314729.600-1163546.500" />
         </Airport>
         <Airport ICAO="MMGA" FullName="BARRANCAS DEL COBRE" Position="+274333.400-1073915.650" Elevation="8139">
-            <Runway Name="02" Position="+274342.890-1073941.250" />
-            <Runway Name="20" Position="+274317.630-1073833.210" />
+            <Runway Name="10" Position="+274342.890-1073941.250" />
+            <Runway Name="28" Position="+274317.630-1073833.210" />
         </Airport>
         <Airport ICAO="MMGL" FullName="GUADALAJARA" Position="+203118.610-1031840.120" Elevation="5016">
             <Runway Name="11" Position="+203143.630-1031939.710" />
