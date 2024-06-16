@@ -1,0 +1,3 @@
+# TODOS
+
+* Separar aproximación Bajio
