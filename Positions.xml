@@ -603,7 +603,7 @@
         </Position>
 
         <!-- ATZ Peñasco -->
-        <Position Name="Torre Peñasco - PETW1" Type="ASD" DefaultCenter="+312103.240-1131800.900" DefaultRange="20" MagneticVariation="-12">
+        <Position Name="Torre Peñasco - PETW1" Type="ASD" DefaultCenter="+312103.240-1131800.900" DefaultRange="40" MagneticVariation="-12">
             <Sectors>
                 <Sector Name="PETW1" />
             </Sectors>

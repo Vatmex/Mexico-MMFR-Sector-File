@@ -8194,7 +8194,7 @@
         <SID Name="UPN3" Airport="MMPN" Runways="20">
             <Route Runway="20">UPN</Route>
         </SID>
-        <!--MMPE-->
+        <!--MMPQ-->
         <SID Name="PQE2A" Airport="MMPQ" Runways="10">
             <Route Runway="10">PQE</Route>
         </SID>
