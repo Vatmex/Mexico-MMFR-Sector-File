@@ -3561,6 +3561,7 @@
         <Point Name="OTEKA" Type="Fix">+240235.000-1031757.000</Point>
         <Point Name="OTEXA" Type="Fix">+284030.000-1083000.000</Point>
         <Point Name="OTIGA" Type="Fix">+185313.000-0980944.000</Point>
+        <Point Name="OTIGO" Type="Fix">+280444.000-1083000.000</Point>
         <Point Name="OTILO" Type="Fix">+184519.000-0960143.000</Point>
         <Point Name="OTIPO" Type="Fix">+240600.000-0890421.000</Point>
         <Point Name="OTITI" Type="Fix">+232027.000-0990629.000</Point>
@@ -3599,6 +3600,7 @@
         <Point Name="PELSA" Type="Fix">+250936.000-1073731.000</Point>
         <Point Name="PENGA" Type="Fix">+202214.000-0892541.000</Point>
         <Point Name="PENVA" Type="Fix">+145405.000-0924730.000</Point>
+        <Point Name="PEPSO" Type="Fix">+210154.000-0853007.000</Point>
         <Point Name="PERBU" Type="Fix">+212853.000-1033729.000</Point>
         <Point Name="PERGO" Type="Fix">+211624.000-0894249.000</Point>
         <Point Name="PESPA" Type="Fix">+245552.000-1023200.000</Point>
@@ -3681,6 +3683,7 @@
         <Point Name="SELIR" Type="Fix">+212717.000-0975451.000</Point>
         <Point Name="SELIS" Type="Fix">+164842.000-0990335.000</Point>
         <Point Name="SELUL" Type="Fix">+225110.000-0881414.000</Point>
+        <Point Name="SESGA" Type="Fix">+272943.000-1074807.000</Point>
         <Point Name="SESNO" Type="Fix">+245618.000-0990621.000</Point>
         <Point Name="SESVA" Type="Fix">+232025.000-1041441.000</Point>
         <Point Name="SETMA" Type="Fix">+290731.000-1060323.000</Point>
@@ -3886,6 +3889,7 @@
         <Point Name="VITUP" Type="Fix">+193333.000-0960942.000</Point>
         <Point Name="VIVAD" Type="Fix">+290808.000-1073445.000</Point>
         <Point Name="VIVEP" Type="Fix">+210955.000-0903055.000</Point>
+        <Point Name="VIVON" Type="Fix">+273954.000-1080207.000</Point>
         <Point Name="VIVUS" Type="Fix">+200358.800-0883914.700</Point>
         <Point Name="VIVUX" Type="Fix">+242410.900-1074225.000</Point>
         <Point Name="VIXER" Type="Fix">+291417.300-1070857.300</Point>
