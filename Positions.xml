@@ -475,7 +475,7 @@
         </Position>
 
         <!-- ATZ Loreto -->
-        <Position Name="Torre Loreto - LTTW1" Type="ASD" DefaultCenter="+255923.530-1112054.060" DefaultRange="20" MagneticVariation="-9">
+        <Position Name="Torre Loreto - LTTW1" Type="ASD" DefaultCenter="+255923.530-1112054.060" DefaultRange="40" MagneticVariation="-9">
             <Sectors>
                 <Sector Name="LTTW1" />
             </Sectors>
