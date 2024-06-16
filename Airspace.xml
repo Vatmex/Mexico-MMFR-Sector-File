@@ -5516,6 +5516,7 @@
         <Point Name="COL" Type="Navaid" NavaidType="VOR" Frequency="117.700">+191630.460-1033444.420</Point>
         <Point Name="CDR" Type="Navaid" NavaidType="VOR" Frequency="117.100">+240935.000-1012914.590</Point>
         <Point Name="CZM" Type="Navaid" NavaidType="VOR" Frequency="112.500">+203026.900-0865443.200</Point>
+        <Point Name="CRL" Type="Navaid" NavaidType="VOR" Frequency="117.400">+274315.050-1073824.680</Point>
         <Point Name="CUA" Type="Navaid" NavaidType="VOR" Frequency="116.300">+184707.390-0985402.700</Point>
         <Point Name="CVJ" Type="Navaid" NavaidType="VOR" Frequency="113.900">+184930.850-0991609.290</Point>
         <Point Name="CUL" Type="Navaid" NavaidType="VOR" Frequency="112.000">+244552.130-1072838.420</Point>
