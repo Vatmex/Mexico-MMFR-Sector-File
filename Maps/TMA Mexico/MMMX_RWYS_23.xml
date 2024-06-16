@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
     <Map Type="System" Name="MMMX - Pistas 23 - Llegadas RNAV" Priority="1" Center="+192617.580-0990407.680">
-        <Line Name="DARAN2B" Pattern="Dashed">DARAN/MX650/MX652/DUSGO/MX617/MX619/MX621/MX623/SESTA/ESTIN</Line>
+        <Line Name="DARAN3B" Pattern="Dashed">DARAN/MX651/MX652/DUSGO/MX617/MX619/MX621/MX623/SESTA/ESTIN</Line>
         <Line Name="ENAGA2B" Pattern="Dashed">ENAGA/MX641/MX643/MX645/MX647/MX649/MX602</Line>
         <Line Name="LARLO3B" Pattern="Dashed">LARLO/PBC/MX665/MX666/MX667/MX669/MX671/MX602/SESTA</Line>
         <Line Name="ESPOS3B" Pattern="Dashed">ESPOS/MX770/MX661/OTMOS/MX665</Line>
@@ -307,7 +307,7 @@
         </Symbol>
     </Map>
     <Map Type="System" Name="MMMX - Pistas 23 - Salidas RNAV" Priority="1" Center="+192617.580-0990407.680">
-        <Line Name="ATURO2B" Pattern="Dotted">MEX/MX503/MX520/TO601/MX526/MX527/ATURO</Line>
+        <Line Name="ATURO3B" Pattern="Dotted">MEX/MX503/MX520/SEGUM/MX550/MX527/ATURO</Line>
         <Line Name="AXIRI2B" Pattern="Dotted">MX527/AXIRI</Line>
         <Line Name="IKLAN2B" Pattern="Dotted">MX527/IKLAN</Line>
         <Line Name="ILETO2B" Pattern="Dotted">MEX/MX504/MX540/MX541/MUXAN/MX501/MX505/OVATI/ILETO</Line>
