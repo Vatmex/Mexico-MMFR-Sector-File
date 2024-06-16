@@ -2880,7 +2880,7 @@
         </Position>
 
         <!-- TMA Morelia -->
-        <Position Name="Torre Morelia (Procedimientos) - MMTW1" Type="ASD" DefaultCenter="+193747.029-1010428.121" DefaultRange="220" MagneticVariation="-7" VisibilityRange="100">
+        <Position Name="Torre Morelia (Procedimientos) - MMTW1" Type="ASD" DefaultCenter="+193747.029-1010428.121" DefaultRange="220" MagneticVariation="-5" VisibilityRange="100">
             <Sectors>
                 <Sector Name="MMTW1" />
             </Sectors>

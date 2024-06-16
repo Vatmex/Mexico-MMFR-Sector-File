@@ -787,20 +787,20 @@
         </Airport>
         <Airport Name="MMMM">
             <Runway Name="05" DataRunway="05">
-                <SID Name="MLM4A" Default="True" />
-                <SID Name="ANIDA3" />
-                <SID Name="AXOB2A" />
-                <SID Name="GADET3" />
-                <SID Name="PAMAB2" />
+                <SID Name="MLM5A" Default="True" />
+                <SID Name="ANIDA4" />
+                <SID Name="AXOB3A" />
+                <SID Name="GADET4" />
+                <SID Name="PAMAB3" />
                 <SID Name="PIVAN3" />
-                <SID Name="VERBA4" />
+                <SID Name="VERBA5" />
             </Runway>
             <Runway Name="23" DataRunway="23">
-                <SID Name="MLM4B" Default="True" />
-                <SID Name="AXOB2B" />
-                <SID Name="REMIL3" />
-                <SID Name="SUVSU3" />
-                <SID Name="TUZAS3" />
+                <SID Name="MLM5B" Default="True" />
+                <SID Name="AXOB3B" />
+                <SID Name="REMIL4" />
+                <SID Name="SUVSU4" />
+                <SID Name="TUZAS4" />
             </Runway>
         </Airport>
         <Airport Name="MMMT">
@@ -7629,40 +7629,40 @@
             <Route Runway="28">URSIX</Route>
         </SID>
         <!--MMMM-->
-        <SID Name="MLM4A" Airport="MMMM" Runways="05">
+        <SID Name="MLM5A" Airport="MMMM" Runways="05">
             <Route Runway="05">MLM</Route>
         </SID>
-        <SID Name="MLM4B" Airport="MMMM" Runways="23">
+        <SID Name="MLM5B" Airport="MMMM" Runways="23">
             <Route Runway="23">MLM</Route>
         </SID>
-        <SID Name="ANIDA3" Airport="MMMM" Runways="05">
+        <SID Name="ANIDA4" Airport="MMMM" Runways="05">
             <Route Runway="05">ANIDA</Route>
         </SID>
-        <SID Name="AXOB2A" Airport="MMMM" Runways="05">
+        <SID Name="AXOB3A" Airport="MMMM" Runways="05">
             <Route Runway="05">AXOBI</Route>
         </SID>
-        <SID Name="AXOB2B" Airport="MMMM" Runways="23">
+        <SID Name="AXOB3B" Airport="MMMM" Runways="23">
             <Route Runway="23">AXOBI</Route>
         </SID>
-        <SID Name="GADET3" Airport="MMMM" Runways="05">
+        <SID Name="GADET4" Airport="MMMM" Runways="05">
             <Route Runway="05">GADET</Route>
         </SID>
-        <SID Name="PAMAB2" Airport="MMMM" Runways="05">
+        <SID Name="PAMAB3" Airport="MMMM" Runways="05">
             <Route Runway="05">PAMAB</Route>
         </SID>
         <SID Name="PIVAN3" Airport="MMMM" Runways="05">
             <Route Runway="05">PIVAN</Route>
         </SID>
-        <SID Name="REMIL3" Airport="MMMM" Runways="23">
+        <SID Name="REMIL4" Airport="MMMM" Runways="23">
             <Route Runway="23">REMIL</Route>
         </SID>
-        <SID Name="SUVSU3" Airport="MMMM" Runways="23">
+        <SID Name="SUVSU4" Airport="MMMM" Runways="23">
             <Route Runway="23">SUVSU</Route>
         </SID>
-        <SID Name="TUZAS3" Airport="MMMM" Runways="23">
+        <SID Name="TUZAS4" Airport="MMMM" Runways="23">
             <Route Runway="23">TUZAS</Route>
         </SID>
-        <SID Name="VERBA4" Airport="MMMM" Runways="05">
+        <SID Name="VERBA5" Airport="MMMM" Runways="05">
             <Route Runway="05">VERBA</Route>
         </SID>
         <!--MMMT-->
