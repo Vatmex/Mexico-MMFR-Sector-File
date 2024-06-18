@@ -276,6 +276,9 @@
     <Sector FullName="Aproximación Puebla" Frequency="119.200" Callsign="MMPB_APP" Name="PBAPP" DisplayInHandoffWindow="False">
         <Volumes>MMPB_APP</Volumes>
     </Sector>
+    <Sector FullName="Torre Atizapan" Frequency="118.400" Callsign="MMJC_TWR" Name="JCTW1" DisplayInHandoffWindow="False">
+        <Volumes>MMJC_ATZ</Volumes>
+    </Sector>
     <Sector FullName="Autorización Santa Lucía" Frequency="121.900" Callsign="MMSM_DEL" Name="SMCDL" DisplayInHandoffWindow="False">
         <Volumes>MMSM_CTR</Volumes>
     </Sector>
