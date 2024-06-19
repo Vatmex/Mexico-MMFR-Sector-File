@@ -1453,13 +1453,13 @@
         </Position>
 
         <!-- Torre Minatitlan -->
-        <Position Name="Torre Minatitlan - MTTW1" Type="ASD" DefaultCenter="+180612.034-0943450.213" DefaultRange="20" MagneticVariation="-4">
+        <Position Name="Torre Minatitlan - MTTW1" Type="ASD" DefaultCenter="+180612.034-0943450.213" DefaultRange="40" MagneticVariation="-4">
             <Sectors>
                 <Sector Name="MTTW1" />
             </Sectors>
             <Maps>
-                <Map Name="ATZ Minatitlan/Aeropuerto - Pistas" />
-                <Map Name="ATZ Minatitlan/Aeropuerto - Zona de Transito de Aerodromo (ATZ)" />
+                <Map Name="CTR Minatitlan/Aeropuerto - Pistas" />
+                <Map Name="CTR Minatitlan/Aeropuerto - Zona de Control (CTR)" />
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>

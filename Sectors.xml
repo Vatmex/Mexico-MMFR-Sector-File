@@ -133,7 +133,7 @@
         <Volumes>MMMD_TMA</Volumes>
     </Sector>
     <Sector FullName="Torre Minatitlan" Frequency="118.100" Callsign="MMMT_TWR" Name="MTTW1" DisplayInHandoffWindow="False">
-        <Volumes>MMMT_ATZ</Volumes>
+        <Volumes>MMMT_CTR</Volumes>
     </Sector>
     <Sector FullName="Torre Palenque" Frequency="118.750" Callsign="MMPQ_TWR" Name="PQTW1" DisplayInHandoffWindow="False">
         <Volumes>MMPQ_ATZ</Volumes>
