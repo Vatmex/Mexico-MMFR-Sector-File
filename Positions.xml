@@ -5158,7 +5158,7 @@
         </Position>
 
         <!-- TMA Torreón -->
-        <Position Name="Torre Torreón - TCTW1" Type="ASD" DefaultCenter="+253405.840-1032438.440" DefaultRange="20" MagneticVariation="-8">
+        <Position Name="Torre Torreón - TCTW1" Type="ASD" DefaultCenter="+253405.840-1032438.440" DefaultRange="20" MagneticVariation="-6">
             <Sectors>
                 <Sector Name="TCTW1" />
             </Sectors>
@@ -5182,7 +5182,7 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
-        <Position Name="Aproximación Torreón - TCAPP" Type="ASD" DefaultCenter="+252943.240-1032452.740" DefaultRange="215" MagneticVariation="-7" VisibilityRange="100">
+        <Position Name="Aproximación Torreón - TCAPP" Type="ASD" DefaultCenter="+252943.240-1032452.740" DefaultRange="215" MagneticVariation="-6" VisibilityRange="100">
             <Sectors>
                 <Sector Name="TCAPP" />
             </Sectors>
