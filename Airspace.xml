@@ -5588,7 +5588,7 @@
         <Point Name="TAP" Type="Navaid" NavaidType="VOR" Frequency="115.300">+144731.880-0922232.560</Point>
         <Point Name="TEQ" Type="Navaid" NavaidType="VOR" Frequency="113.100">+184033.900-0991519.130</Point>
         <Point Name="TGM" Type="Navaid" NavaidType="VOR" Frequency="117.300">+164424.000-0931029.000</Point>
-        <Point Name="TGZ" Type="Navaid" NavaidType="VOR" Frequency="115.700">+163414.160-0930148.240</Point>
+        <Point Name="TGZ" Type="Navaid" NavaidType="VOR" Frequency="115.700">+163414.080-0930148.350</Point>
         <Point Name="TIJ" Type="Navaid" NavaidType="VOR" Frequency="116.500">+323225.590-1165709.720</Point>
         <Point Name="TLC" Type="Navaid" NavaidType="VOR" Frequency="114.300">+191958.320-0993339.720</Point>
         <Point Name="TMN" Type="Navaid" NavaidType="VOR" Frequency="113.300">+220218.540-0984828.610</Point>
