@@ -149,7 +149,7 @@
         </Position>
 
         <!-- TMA Culiacan -->
-        <Position Name="Torre Culiacán - CLTW1" Type="ASD" DefaultCenter="+244554.216-1072830.547" DefaultRange="55" MagneticVariation="-8">
+        <Position Name="Torre Culiacán - CLTW1" Type="ASD" DefaultCenter="+244554.216-1072830.547" DefaultRange="55" MagneticVariation="-7">
             <Sectors>
                 <Sector Name="CLTW1" />
             </Sectors>
@@ -178,7 +178,7 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
-        <Position Name="Aproximación Culiacán - CLAPP" Type="ASD" DefaultCenter="+244554.216-1072830.547" DefaultRange="275" MagneticVariation="-8" VisibilityRange="150">
+        <Position Name="Aproximación Culiacán - CLAPP" Type="ASD" DefaultCenter="+244554.216-1072830.547" DefaultRange="275" MagneticVariation="-7" VisibilityRange="150">
             <Sectors>
                 <Sector Name="CLAPP" />
             </Sectors>
@@ -442,7 +442,7 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
-        <Position Name="Aproximación La Paz - LPAPP" Type="ASD" DefaultCenter="+242441.410-1101750.755" DefaultRange="180" MagneticVariation="-10" VisibilityRange="150">
+        <Position Name="Aproximación La Paz - LPAPP" Type="ASD" DefaultCenter="+242709.307-1101812.233" DefaultRange="200" MagneticVariation="-10" VisibilityRange="150">
             <Sectors>
                 <Sector Name="LPAPP" />
             </Sectors>
@@ -475,7 +475,7 @@
         </Position>
 
         <!-- ATZ Loreto -->
-        <Position Name="Torre Loreto - LTTW1" Type="ASD" DefaultCenter="+255923.530-1112054.060" DefaultRange="20" MagneticVariation="-9">
+        <Position Name="Torre Loreto - LTTW1" Type="ASD" DefaultCenter="+255923.530-1112054.060" DefaultRange="40" MagneticVariation="-9">
             <Sectors>
                 <Sector Name="LTTW1" />
             </Sectors>
@@ -603,7 +603,7 @@
         </Position>
 
         <!-- ATZ Peñasco -->
-        <Position Name="Torre Peñasco - PETW1" Type="ASD" DefaultCenter="+312103.240-1131800.900" DefaultRange="20" MagneticVariation="-12">
+        <Position Name="Torre Peñasco - PETW1" Type="ASD" DefaultCenter="+312103.240-1131800.900" DefaultRange="40" MagneticVariation="-12">
             <Sectors>
                 <Sector Name="PETW1" />
             </Sectors>
@@ -1453,13 +1453,13 @@
         </Position>
 
         <!-- Torre Minatitlan -->
-        <Position Name="Torre Minatitlan - MTTW1" Type="ASD" DefaultCenter="+180612.034-0943450.213" DefaultRange="20" MagneticVariation="-4">
+        <Position Name="Torre Minatitlan - MTTW1" Type="ASD" DefaultCenter="+180612.034-0943450.213" DefaultRange="40" MagneticVariation="-4">
             <Sectors>
                 <Sector Name="MTTW1" />
             </Sectors>
             <Maps>
-                <Map Name="ATZ Minatitlan/Aeropuerto - Pistas" />
-                <Map Name="ATZ Minatitlan/Aeropuerto - Zona de Transito de Aerodromo (ATZ)" />
+                <Map Name="CTR Minatitlan/Aeropuerto - Pistas" />
+                <Map Name="CTR Minatitlan/Aeropuerto - Zona de Control (CTR)" />
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
             </Maps>
@@ -2050,7 +2050,7 @@
         </Position>
 
         <!-- ACC Mérida -->
-        <Position Name="Centro Mérida (Combinado) - MIDC" Type="ASD" DefaultCenter="+180000.000-0950000.000" DefaultRange="1550" MagneticVariation="+2">
+        <Position Name="Centro Mérida (Combinado) - MIDC" Type="ASD" DefaultCenter="+182452.094-0914224.983" DefaultRange="1430" MagneticVariation="+2">
             <Sectors>
                 <Sector Name="MIDC" />
                 <Sector Name="MID1" />
@@ -2059,10 +2059,11 @@
                 <Sector Name="MID4" />
                 <Sector Name="MID5" />
                 <Sector Name="MID6" />
+                <Sector Name="MID7" />
             </Sectors>
             <Maps>
                 <Map Name="ACC Merida/Limites - Terminales" />
-                <Map Name="ACC Merida/Limites - Sectores Individuales" />
+                <Map Name="ACC Merida/Limites - Sectores" />
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
                 <Map Name="Universal/Sector - Aerovias" />
@@ -2105,7 +2106,6 @@
             </Sectors>
             <Maps>
                 <Map Name="ACC Merida/Limites - Sectores" />
-                <Map Name="ACC Merida/Limites - Sectores (Referencia)" />
                 <Map Name="ACC Merida/Limites - Terminales" />
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
@@ -2146,10 +2146,10 @@
                 <Sector Name="MID1" />
                 <Sector Name="MID5" />
                 <Sector Name="MID6" />
+                <Sector Name="MID7" />
             </Sectors>
             <Maps>
                 <Map Name="ACC Merida/Limites - Sectores" />
-                <Map Name="ACC Merida/Limites - Sectores (Referencia)" />
                 <Map Name="ACC Merida/Limites - Terminales" />
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
@@ -2880,7 +2880,7 @@
         </Position>
 
         <!-- TMA Morelia -->
-        <Position Name="Torre Morelia (Procedimientos) - MMTW1" Type="ASD" DefaultCenter="+193747.029-1010428.121" DefaultRange="220" MagneticVariation="-7" VisibilityRange="100">
+        <Position Name="Torre Morelia (Procedimientos) - MMTW1" Type="ASD" DefaultCenter="+193747.029-1010428.121" DefaultRange="220" MagneticVariation="-5" VisibilityRange="100">
             <Sectors>
                 <Sector Name="MMTW1" />
             </Sectors>
@@ -5158,7 +5158,7 @@
         </Position>
 
         <!-- TMA Torreón -->
-        <Position Name="Torre Torreón - TCTW1" Type="ASD" DefaultCenter="+253405.840-1032438.440" DefaultRange="20" MagneticVariation="-8">
+        <Position Name="Torre Torreón - TCTW1" Type="ASD" DefaultCenter="+253405.840-1032438.440" DefaultRange="20" MagneticVariation="-6">
             <Sectors>
                 <Sector Name="TCTW1" />
             </Sectors>
@@ -5182,7 +5182,7 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
-        <Position Name="Aproximación Torreón - TCAPP" Type="ASD" DefaultCenter="+252943.240-1032452.740" DefaultRange="215" MagneticVariation="-7" VisibilityRange="100">
+        <Position Name="Aproximación Torreón - TCAPP" Type="ASD" DefaultCenter="+252943.240-1032452.740" DefaultRange="215" MagneticVariation="-6" VisibilityRange="100">
             <Sectors>
                 <Sector Name="TCAPP" />
             </Sectors>
@@ -5227,7 +5227,7 @@
             </Sectors>
             <Maps>
                 <Map Name="ACC Monterrey/Radar - Cobertura" />
-                <Map Name="ACC Monterrey/Sector - Radioayudas" />
+                <Map Name="Universal/Sector - Radioayudas" />
                 <Map Name="ACC Monterrey/Limites - Sectores" />
                 <Map Name="ACC Monterrey/Limites - Terminales" />
 
@@ -5268,7 +5268,7 @@
             </Sectors>
             <Maps>
                 <Map Name="ACC Monterrey/Radar - Cobertura" />
-                <Map Name="ACC Monterrey/Sector - Radioayudas" />
+                <Map Name="Universal/Sector - Radioayudas" />
                 <Map Name="ACC Monterrey/Limites - Sectores" />
                 <Map Name="ACC Monterrey/Limites - Terminales" />
 
@@ -5310,7 +5310,7 @@
             </Sectors>
             <Maps>
                 <Map Name="ACC Monterrey/Radar - Cobertura" />
-                <Map Name="ACC Monterrey/Sector - Radioayudas" />
+                <Map Name="Universal/Sector - Radioayudas" />
                 <Map Name="ACC Monterrey/Limites - Sectores" />
                 <Map Name="ACC Monterrey/Limites - Terminales" />
 
