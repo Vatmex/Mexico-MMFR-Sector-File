@@ -8,8 +8,8 @@
         </Runway>
         <!--MMGM-->
         <Runway Name="02/20">
-            <Threshold Name="02" Position="+275736.640-1105546.630" />
-            <Threshold Name="20" Position="+275842.620-1105504.120" />
+            <Threshold Name="02" Position="+275736.460-1105546.650" />
+            <Threshold Name="20" Position="+275842.630-1105504.130" />
         </Runway>
     </Map>
     <Map Type="System2" Name="Aeropuerto - Area Terminal (TMA)" Priority="1">
