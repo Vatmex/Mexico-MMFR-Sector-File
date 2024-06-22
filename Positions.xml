@@ -149,7 +149,7 @@
         </Position>
 
         <!-- TMA Culiacan -->
-        <Position Name="Torre Culiacán - CLTW1" Type="ASD" DefaultCenter="+244554.216-1072830.547" DefaultRange="55" MagneticVariation="-8">
+        <Position Name="Torre Culiacán - CLTW1" Type="ASD" DefaultCenter="+244554.216-1072830.547" DefaultRange="55" MagneticVariation="-7">
             <Sectors>
                 <Sector Name="CLTW1" />
             </Sectors>
@@ -178,7 +178,7 @@
                 <Line>ATC feedback - vatmex.com.mx</Line>
             </ControllerInfo>
         </Position>
-        <Position Name="Aproximación Culiacán - CLAPP" Type="ASD" DefaultCenter="+244554.216-1072830.547" DefaultRange="275" MagneticVariation="-8" VisibilityRange="150">
+        <Position Name="Aproximación Culiacán - CLAPP" Type="ASD" DefaultCenter="+244554.216-1072830.547" DefaultRange="275" MagneticVariation="-7" VisibilityRange="150">
             <Sectors>
                 <Sector Name="CLAPP" />
             </Sectors>
@@ -2050,7 +2050,7 @@
         </Position>
 
         <!-- ACC Mérida -->
-        <Position Name="Centro Mérida (Combinado) - MIDC" Type="ASD" DefaultCenter="+180000.000-0950000.000" DefaultRange="1550" MagneticVariation="+2">
+        <Position Name="Centro Mérida (Combinado) - MIDC" Type="ASD" DefaultCenter="+182452.094-0914224.983" DefaultRange="1430" MagneticVariation="+2">
             <Sectors>
                 <Sector Name="MIDC" />
                 <Sector Name="MID1" />
@@ -2059,10 +2059,11 @@
                 <Sector Name="MID4" />
                 <Sector Name="MID5" />
                 <Sector Name="MID6" />
+                <Sector Name="MID7" />
             </Sectors>
             <Maps>
                 <Map Name="ACC Merida/Limites - Terminales" />
-                <Map Name="ACC Merida/Limites - Sectores Individuales" />
+                <Map Name="ACC Merida/Limites - Sectores" />
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
                 <Map Name="Universal/Sector - Aerovias" />
@@ -2105,7 +2106,6 @@
             </Sectors>
             <Maps>
                 <Map Name="ACC Merida/Limites - Sectores" />
-                <Map Name="ACC Merida/Limites - Sectores (Referencia)" />
                 <Map Name="ACC Merida/Limites - Terminales" />
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
@@ -2146,10 +2146,10 @@
                 <Sector Name="MID1" />
                 <Sector Name="MID5" />
                 <Sector Name="MID6" />
+                <Sector Name="MID7" />
             </Sectors>
             <Maps>
                 <Map Name="ACC Merida/Limites - Sectores" />
-                <Map Name="ACC Merida/Limites - Sectores (Referencia)" />
                 <Map Name="ACC Merida/Limites - Terminales" />
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
