@@ -29,10 +29,11 @@
         <Line Width="0.6" Name="V6">TTM.V6.TAM</Line>
         <Line Width="0.6" Name="V7">ENS.V7.PPE</Line>
         <Line Width="0.6" Name="V7">HMO.V7.CEN</Line>
-        <Line Width="0.6" Name="V8">LMM.V8.LAP</Line>
+        <Line Width="0.6" Name="V8">CUU.V8.LAP</Line>
         <Line Width="0.6" Name="V9">CEN.V9.LAP</Line>
         <Line Width="0.6" Name="V9">TAMET.V9.CSL</Line>
         <Line Width="0.6" Name="V10">REX.V10.LAP</Line>
+        <Line Width="0.6" Name="V11">CEN.V11.ELQ</Line>
         <Line Width="0.6" Name="V11">TRC.V11.SLM</Line>
         <Line Width="0.6" Name="V12">CVM.V12.DGO</Line>
         <Line Width="0.6" Name="V12">CUL.V12.GODOY</Line>
@@ -136,7 +137,7 @@
         <Line Width="0.6" Name="UJ2">CEN.UJ2.MOV</Line>
         <Line Width="0.6" Name="UJ3">LMM.UJ3.GDL</Line>
         <Line Width="0.6" Name="UJ3">UPN.UJ3.ACA</Line>
-        <Line Width="0.6" Name="UJ4">ELQ.UJ4.MTY</Line>
+        <Line Width="0.6" Name="UJ4">HMO.UJ4.MTY</Line>
         <Line Width="0.6" Name="UJ5">ZCL.UJ5.QET</Line>
         <Line Width="0.6" Name="UJ5">MEX.UJ5.MTT</Line>
         <Line Width="0.6" Name="UJ5">VSA.UJ5.CTM</Line>
