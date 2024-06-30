@@ -1053,29 +1053,30 @@
      <Label HasLeader="false">
             <Point Name="A">+203104.510-1031743.500</Point>
             <Point Name="A">+203121.800-1031820.430</Point>
-            <Point Name="A">+203128.730-1031843.640</Point>
-            <Point Name="A">+203142.560-1031921.200</Point>
+            <Point Name="A8">+203128.730-1031843.640</Point>
+            <Point Name="A8">+203142.560-1031921.200</Point>
             <Point Name="A1">+203056.100-1031732.340</Point>
             <Point Name="A3">+203111.6641-1031739.740</Point>
             <Point Name="A3">+203125.3438-1031732.740</Point>
             <Point Name="A4">+203117.960-1031753.130</Point>
+            <Point Name="A10">+203132.210-1031857.780</Point>
+            <Point Name="A11">+203136.890-1031908.900</Point>
+            <Point Name="A13">+203149.470-1031938.250</Point>
             <Point Name="B">+203121.280-1031802.830</Point>
             <Point Name="B">+203111.880-1031807.760</Point>
             <Point Name="C">+203123.580-1031809.710</Point>
             <Point Name="D">+203124.390-1031817.010</Point>
             <Point Name="E">+203121.910-1031828.570</Point>
             <Point Name="F">+203131.360-1031827.990</Point>
-            <Point Name="G">+203132.210-1031857.780</Point>
-            <Point Name="H">+203136.890-1031908.900</Point>
             <Point Name="J">+203138.2813-1031825.625</Point>
             <Point Name="K">+203144.3984-1031821.4063</Point>
             <Point Name="L">+203153.7109-1031815.9063</Point>
             <Point Name="M">+203157.610-1031813.560</Point>
             <Point Name="N">+203201.4063-1031810.875</Point>
             <Point Name="02">+203111.260-1031844.258</Point>
-            <Point Name="11">+203140.040-1031936.080</Point>
             <Point Name="20">+203208.245-1031809.349</Point>
-            <Point Name="29">+203049.550-1031734.850</Point>
+            <Point Name="11R">+203140.040-1031936.080</Point>
+            <Point Name="29L">+203049.550-1031734.850</Point>
         </Label>
     </Map>
     <Map Type="Ground_BLD" Name="ASMGCS_MMGL_LINES" CustomColourName="TaxiwayLines" Priority="1" Center="+203124.32-1031841.798">
