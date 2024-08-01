@@ -423,7 +423,32 @@
             </Runway>
         </Airport>
         <Airport Name="MMGL">
-            <Runway Name="11" DataRunway="11">
+            <Runway Name="11L" DataRunway="11L">
+                <SID Name="GDL1A" Default="True" />
+                <SID Name="EBDEG1" />
+                <SID Name="EMIR1A" />
+                <SID Name="FEIS1A" />
+                <SID Name="GOYA1A" />
+                <SID Name="KARUN1" />
+                <SID Name="KELV1A" />
+                <SID Name="LEROK1" />
+                <SID Name="LONK1D" />
+                <SID Name="NOTU1D" />
+                <SID Name="OTOK1A" />
+                <SID Name="OVALI1" />
+                <SID Name="PIRAR1" />
+                <SID Name="SEDE1A" />
+                <SID Name="TABG1A" />
+                <SID Name="XORID1" />
+                <STAR Name="IGSO1A" ApproachName="RNP11L.OLAVA" />
+                <STAR Name="USBI1C" ApproachName="RNP11L.OLAVA" />
+                <STAR Name="VOLA1A" ApproachName="RNP11L.OLAVA" />
+                <STAR Name="KASU1A" ApproachName="RNP11L.OLAVA" />
+                <STAR Name="AMUL1A" ApproachName="RNP11L.OLAVA" />
+                <STAR Name="MEZC1A" ApproachName="RNP11L.OLAVA" />
+                <STAR Name="MUTE1A" ApproachName="RNP11L.OLAVA" />
+            </Runway>
+            <Runway Name="11R" DataRunway="11R">
                 <SID Name="GDL1A" Default="True" />
                 <SID Name="EBDEG1" />
                 <SID Name="EMIG1A" />
@@ -441,16 +466,16 @@
                 <SID Name="SEDE1A" />
                 <SID Name="TABG1A" />
                 <SID Name="XORID1" />
-                <STAR Name="LIPE1F" ApproachName="ILS11Z.DATSO" />
-                <STAR Name="LIVR1C" ApproachName="ILS11Z.DULNO" />
-                <STAR Name="LONV1C" ApproachName="ILS11Z.DULNO" />
-                <STAR Name="MODE1A" ApproachName="ILS11Z.DULNO" />
-                <STAR Name="ULUV1A" ApproachName="ILS11Z.DATSO" />
-                <STAR Name="USBI1C" ApproachName="ILS11Z.DATSO" />
+                <STAR Name="IGSO1A" ApproachName="ILS11RX.OLAVA" />
+                <STAR Name="USBI1C" ApproachName="ILS11RX.OLAVA" />
+                <STAR Name="VOLA1A" ApproachName="ILS11RX.OLAVA" />
+                <STAR Name="KASU1A" ApproachName="ILS11RX.OLAVA" />
+                <STAR Name="AMUL1A" ApproachName="ILS11RX.OLAVA" />
+                <STAR Name="MEZC1A" ApproachName="ILS11RX.OLAVA" />
+                <STAR Name="MUTE1A" ApproachName="ILS11RX.OLAVA" />
             </Runway>
-            <Runway Name="29" DataRunway="29">
+            <Runway Name="29L" DataRunway="29L">
                 <SID Name="GDL1B" Default="True" />
-                <SID Name="GDL1C" />
                 <SID Name="DEBRO1" />
                 <SID Name="DUNSU1" />
                 <SID Name="EMIG1B" />
@@ -466,12 +491,38 @@
                 <SID Name="TABG1B" />
                 <SID Name="TEILA1" />
                 <SID Name="TIKIT1" />
-                <STAR Name="LIPE1G" ApproachName="ILS29Z.PLADE" />
-                <STAR Name="LIVR1D" ApproachName="ILS29Z.PLADE" />
-                <STAR Name="LONV1D" ApproachName="ILS29Z.PLADE" />
-                <STAR Name="MODE1B" ApproachName="ILS29Z.PLADE" />
-                <STAR Name="ULUV1B" ApproachName="ILS29Z.PLADE" />
-                <STAR Name="USBI1D" ApproachName="ILS29Z.PLADE" />
+                <STAR Name="IGSO1B" ApproachName="ILS29LX.PLADE" />
+                <STAR Name="USBI1D" ApproachName="ILS29LX.PLADE" />
+                <STAR Name="VOLA1B" ApproachName="ILS29LX.PLADE" />
+                <STAR Name="KASU1B" ApproachName="ILS29LX.PLADE" />
+                <STAR Name="AMUL1B" ApproachName="ILS29LX.PLADE" />
+                <STAR Name="MEZC1B" ApproachName="ILS29LX.PLADE" />
+                <STAR Name="MUTE1B" ApproachName="ILS29LX.PLADE" />
+            </Runway>
+            <Runway Name="29R" DataRunway="29R">
+                <SID Name="GDL1B" Default="True" />
+                <SID Name="DEBRO1" />
+                <SID Name="DUNSU1" />
+                <SID Name="EMIG1B" />
+                <SID Name="EMIR1B" />
+                <SID Name="FEIS1B" />
+                <SID Name="GOYA1B" />
+                <SID Name="KELV1B" />
+                <SID Name="LONK1E" />
+                <SID Name="NOTU1E" />
+                <SID Name="NUBIG1" />
+                <SID Name="OTOK1B" />
+                <SID Name="SEDE1B" />
+                <SID Name="TABG1B" />
+                <SID Name="TEILA1" />
+                <SID Name="TIKIT1" />
+                <STAR Name="IGSO1B" ApproachName="RNP29R.PLADE" />
+                <STAR Name="USBI1D" ApproachName="RNP29R.PLADE" />
+                <STAR Name="VOLA1B" ApproachName="RNP29R.PLADE" />
+                <STAR Name="KASU1B" ApproachName="RNP29R.PLADE" />
+                <STAR Name="AMUL1B" ApproachName="RNP29R.PLADE" />
+                <STAR Name="MEZC1B" ApproachName="RNP29R.PLADE" />
+                <STAR Name="MUTE1B" ApproachName="RNP29R.PLADE" />
             </Runway>
         </Airport>
         <Airport Name="MMGM">
@@ -3522,6 +3573,7 @@
         <Point Name="OKUMU" Type="Fix">+191841.000-0902408.000</Point>
         <Point Name="OKUVA" Type="Fix">+202546.000-0872053.000</Point>
         <Point Name="OLAKA" Type="Fix">+234505.500-1080701.000</Point>
+        <Point Name="OLAVA" Type="Fix">+203954.500-1033910.600</Point>
         <Point Name="OLESI" Type="Fix">+233647.000-1081213.000</Point>
         <Point Name="OLEXU" Type="Fix">+243241.300-1070516.000</Point>
         <Point Name="OLOSA" Type="Fix">+250023.000-1061125.000</Point>
@@ -3690,6 +3742,7 @@
         <Point Name="SEDIM" Type="Fix">+193219.130-0994652.610</Point>
         <Point Name="SEGIP" Type="Fix">+175021.000-1015621.000</Point>
         <Point Name="SEKEV" Type="Fix">+205154.000-1053237.000</Point>
+		<Point Name="SEKIS" Type="Fix">+201846.700-1030710.300</Point>
         <Point Name="SEKUB" Type="Fix">+233830.000-1034705.000</Point>
         <Point Name="SELIR" Type="Fix">+212717.000-0975451.000</Point>
         <Point Name="SELIS" Type="Fix">+164842.000-0990335.000</Point>
@@ -4307,17 +4360,19 @@
         <Point Name="GL402" Type="Fix">+203708.300-1031443.810</Point>
         <Point Name="GL403" Type="Fix">+205451.750-1030612.400</Point>
         <Point Name="GL404" Type="Fix">+203706.510-1030140.920</Point>
-        <Point Name="GL405" Type="Fix">+202506.890-1030356.690</Point>
+        <Point Name="GL405" Type="Fix">+202506.900-1030356.700</Point>
         <Point Name="GL406" Type="Fix">+202823.420-1031143.280</Point>
         <Point Name="GL407" Type="Fix">+201256.150-1031643.450</Point>
         <Point Name="GL408" Type="Fix">+204023.140-1032026.990</Point>
         <Point Name="GL409" Type="Fix">+200847.810-1032402.960</Point>
-        <Point Name="GL410" Type="Fix">+203044.290-1030115.880</Point>
-        <Point Name="GL411" Type="Fix">+205502.910-1030343.980</Point>
+        <Point Name="GL410" Type="Fix">+203044.300-1030115.900</Point>
+        <Point Name="GL411" Type="Fix">+205502.900-1030344.000</Point>
+        <Point Name="GL415" Type="Fix">+204934.300-1024733.800</Point>
         <Point Name="GL420" Type="Fix">+203541.390-1032001.280</Point>
         <Point Name="GL421" Type="Fix">+203703.830-1032420.420</Point>
         <Point Name="GL422" Type="Fix">+204047.740-1033606.590</Point>
-        <Point Name="GL430" Type="Fix">+200348.050-1025827.760</Point>
+        <Point Name="GL430" Type="Fix">+200348.100-1025827.800</Point>
+        <Point Name="GL440" Type="Fix">+204126.700-1032645.100</Point>
         <Point Name="GL501" Type="Fix">+210330.860-1032204.610</Point>
         <Point Name="GL502" Type="Fix">+205558.450-1031212.360</Point>
         <Point Name="GL512" Type="Fix">+205633.810-1031120.480</Point>
@@ -4327,58 +4382,78 @@
         <Point Name="GL522" Type="Fix">+201906.310-1035706.390</Point>
         <Point Name="GL523" Type="Fix">+201115.940-1034649.810</Point>
         <Point Name="GL524" Type="Fix">+200918.680-1033347.160</Point>
-        <Point Name="GL530" Type="Fix">+200024.200-1023646.060</Point>
+        <Point Name="GL530" Type="Fix">+200024.200-1023646.100</Point>
         <Point Name="GL531" Type="Fix">+201040.140-1030612.640</Point>
-        <Point Name="GL532" Type="Fix">+201320.630-1031356.350</Point>
+        <Point Name="GL532" Type="Fix">+201320.600-1031356.400</Point>
         <Point Name="GL534" Type="Fix">+201210.940-1034623.830</Point>
         <Point Name="GL535" Type="Fix">+201941.680-1035614.720</Point>
         <Point Name="GL540" Type="Fix">+205251.390-1024017.540</Point>
-        <Point Name="GL560" Type="Fix">+201830.520-1025458.180</Point>
-        <Point Name="GL561" Type="Fix">+202643.400-1034245.370</Point>
-        <Point Name="GL562" Type="Fix">+203051.240-1034529.550</Point>
-        <Point Name="GL563" Type="Fix">+205553.010-1025558.590</Point>
-        <Point Name="GL564" Type="Fix">+205855.100-1030355.870</Point>
-        <Point Name="GL612" Type="Fix">+203751.920-1033418.430</Point>
+        <Point Name="GL550" Type="Fix">+210335.600-1032426.200</Point>
+        <Point Name="GL551" Type="Fix">+210238.400-1034741.600</Point>		
+        <Point Name="GL552" Type="Fix">+205534.600-1035838.700</Point>			
+        <Point Name="GL553" Type="Fix">+204419.000-1040420.900</Point>			
+        <Point Name="GL554" Type="Fix">+203153.300-1040318.000</Point>			
+        <Point Name="GL555" Type="Fix">+202136.100-1035547.500</Point>
+        <Point Name="GL560" Type="Fix">+202220.700-1035505.200</Point>
+        <Point Name="GL561" Type="Fix">+203213.500-1040217.800</Point>
+        <Point Name="GL562" Type="Fix">+204408.200-1040318.000</Point>
+        <Point Name="GL563" Type="Fix">+205455.600-1035749.800</Point>
+        <Point Name="GL564" Type="Fix">+210141.600-1034720.100</Point>
+        <Point Name="GL565" Type="Fix">+210236.400-1033438.100</Point>
+        <Point Name="GL571" Type="Fix">+201705.000-1035811.400</Point>
+        <Point Name="GL572" Type="Fix">+203606.500-1041038.200</Point>
+        <Point Name="GL573" Type="Fix">+210836.700-1033424.700</Point>
+        <Point Name="GL575" Type="Fix">+204007.400-1040658.200</Point>
+		<Point Name="GL612" Type="Fix">+203751.920-1033418.430</Point>
         <Point Name="GL613" Type="Fix">+203552.190-1032931.970</Point>
         <Point Name="GL614" Type="Fix">+203438.630-1032636.730</Point>
         <Point Name="GL615" Type="Fix">+203325.850-1032343.200</Point>
         <Point Name="GL616" Type="Fix">+203026.120-1031635.100</Point>
-        <Point Name="GL620" Type="Fix">+203751.940-1033418.420</Point>
-        <Point Name="GL621" Type="Fix">+203553.200-1032934.640</Point>
-        <Point Name="GL622" Type="Fix">+203439.760-1032639.360</Point>
+        <Point Name="GL620" Type="Fix">+203751.900-1033418.400</Point>
+        <Point Name="GL621" Type="Fix">+203553.200-1032934.600</Point>
+        <Point Name="GL622" Type="Fix">+203439.800-1032639.400</Point>
         <Point Name="GL623" Type="Fix">+203326.260-1032344.120</Point>
+        <Point Name="GL630" Type="Fix">+203759.800-1033414.700</Point>
+        <Point Name="GL631" Type="Fix">+203601.100-1032931.000</Point>
+        <Point Name="GL632" Type="Fix">+203447.700-1032635.700</Point>
+        <Point Name="GL633" Type="Fix">+203334.200-1032340.400</Point>
+        <Point Name="GL634" Type="Fix">+203140.000-1031125.600</Point>
+        <Point Name="GL635" Type="Fix">+203706.300-1030956.500</Point>
+        <Point Name="GL640" Type="Fix">+201827.600-1030833.300</Point>
+        <Point Name="GL641" Type="Fix">+201703.900-1032706.100</Point>
         <Point Name="GL700" Type="Fix">+205054.780-1031340.040</Point>
         <Point Name="GL701" Type="Fix">+204316.740-1032100.620</Point>
         <Point Name="GL702" Type="Fix">+203557.190-1031203.190</Point>
         <Point Name="GL703" Type="Fix">+203201.070-1030245.030</Point>
         <Point Name="GL704" Type="Fix">+203410.710-1032530.140</Point>
         <Point Name="GL705" Type="Fix">+202332.560-1033258.880</Point>
-        <Point Name="GL710" Type="Fix">+203511.960-1032756.190</Point>
-        <Point Name="GL711" Type="Fix">+204305.940-1031905.930</Point>
-        <Point Name="GL712" Type="Fix">+210124.460-1031239.480</Point>
+        <Point Name="GL710" Type="Fix">+203513.000-1032756.200</Point>
+        <Point Name="GL711" Type="Fix">+204305.900-1031905.900</Point>
+        <Point Name="GL712" Type="Fix">+210124.500-1031239.500</Point>
         <Point Name="GL720" Type="Fix">+203711.760-1031017.740</Point>
         <Point Name="GL721" Type="Fix">+204621.830-1025809.630</Point>
-        <Point Name="GL725" Type="Fix">+203516.900-1025616.930</Point>
-        <Point Name="GL726" Type="Fix">+203200.520-1025937.390</Point>
-        <Point Name="GL730" Type="Fix">+202215.580-1033504.840</Point>
-        <Point Name="GL731" Type="Fix">+200718.750-1030444.420</Point>
-        <Point Name="GL801" Type="Fix">+200228.550-1025153.150</Point>
+        <Point Name="GL725" Type="Fix">+203516.900-1025616.900</Point>
+        <Point Name="GL726" Type="Fix">+203200.500-1025937.400</Point>
+        <Point Name="GL730" Type="Fix">+202215.600-1033504.800</Point>
+        <Point Name="GL731" Type="Fix">+200718.800-1030444.400</Point>
+        <Point Name="GL750" Type="Fix">+205122.900-1025129.600</Point>
+        <Point Name="GL801" Type="Fix">+200228.600-1025153.200</Point>
         <Point Name="GL802" Type="Fix">+200938.950-1024146.130</Point>
-        <Point Name="GL803" Type="Fix">+202038.180-1023647.420</Point>
-        <Point Name="GL804" Type="Fix">+203230.040-1023817.950</Point>
-        <Point Name="GL805" Type="Fix">+204203.660-1024554.790</Point>
+        <Point Name="GL803" Type="Fix">+202038.200-1023647.400</Point>
+        <Point Name="GL804" Type="Fix">+203230.000-1023818.000</Point>
+        <Point Name="GL805" Type="Fix">+204203.700-1024554.800</Point>
         <Point Name="GL810" Type="Fix">+204248.695-1031606.918</Point>
-        <Point Name="GL820" Type="Fix">+210842.800-1031423.240</Point>
-        <Point Name="GL821" Type="Fix">+210613.710-1030943.250</Point>
-        <Point Name="GL822" Type="Fix">+205258.970-1025550.030</Point>
-        <Point Name="GL824" Type="Fix">+204251.100-1024515.370</Point>
-        <Point Name="GL825" Type="Fix">+203252.570-1023718.670</Point>
-        <Point Name="GL826" Type="Fix">+202029.770-1023544.190</Point>
-        <Point Name="GL827" Type="Fix">+200901.850-1024055.900</Point>
-        <Point Name="GL828" Type="Fix">+200132.700-1025129.310</Point>
+        <Point Name="GL820" Type="Fix">+210842.800-1031423.200</Point>
+        <Point Name="GL821" Type="Fix">+210613.700-1030943.300</Point>
+        <Point Name="GL822" Type="Fix">+205259.000-1025550.000</Point>
+        <Point Name="GL824" Type="Fix">+204251.100-1024515.400</Point>
+        <Point Name="GL825" Type="Fix">+203252.600-1023718.700</Point>
+        <Point Name="GL826" Type="Fix">+202029.800-1023544.200</Point>
+        <Point Name="GL827" Type="Fix">+200901.900-1024055.900</Point>
+        <Point Name="GL828" Type="Fix">+200132.700-1025129.300</Point>
         <Point Name="GL830" Type="Fix">+204141.658-1030059.353</Point>
         <Point Name="GL835" Type="Fix">+204912.446-1025758.667</Point>
-        <Point Name="GL840" Type="Fix">+205831.790-1024746.530</Point>
+        <Point Name="GL840" Type="Fix">+205831.800-1024746.500</Point>
         <Point Name="GL850" Type="Fix">+201336.357-1025853.188</Point>
         <Point Name="GL860" Type="Fix">+202809.540-1033928.810</Point>
         <Point Name="GL861" Type="Fix">+202537.630-1032832.820</Point>
@@ -4387,10 +4462,19 @@
         <Point Name="GL960" Type="Fix">+202649.940-1030801.180</Point>
         <Point Name="GL961" Type="Fix">+202918.210-1031353.350</Point>
         <Point Name="GL962" Type="Fix">+203401.990-1030106.110</Point>
-        <Point Name="GL980" Type="Fix">+202511.480-1030407.660</Point>
-        <Point Name="GL981" Type="Fix">+202714.380-1030859.290</Point>
+        <Point Name="GL980" Type="Fix">+202511.500-1030407.700</Point>
+        <Point Name="GL981" Type="Fix">+202714.400-1030859.300</Point>
         <Point Name="GL982" Type="Fix">+202901.760-1031314.460</Point>
-        <Point Name="GUELF" Type="Fix">+255624.800-1002405.700</Point>
+        <Point Name="GL983" Type="Fix">+202729.200-1032355.100</Point>
+        <Point Name="GL984" Type="Fix">+202659.300-1033118.600</Point>
+        <Point Name="GL985" Type="Fix">+202307.100-1033600.200</Point>
+        <Point Name="GL986" Type="Fix">+201713.100-1033139.500</Point>
+        <Point Name="GL987" Type="Fix">+201516.900-1031915.400</Point>
+        <Point Name="GL990" Type="Fix">+202518.600-1030401.700</Point>
+        <Point Name="GL991" Type="Fix">+202722.500-1030855.500</Point>
+        <Point Name="GL992" Type="Fix">+202909.800-1031310.600</Point>
+        <Point Name="GL993" Type="Fix">+203641.700-1031523.000</Point>
+		<Point Name="GUELF" Type="Fix">+255624.800-1002405.700</Point>
         <Point Name="HACHO" Type="Fix">+213917.900-0861617.200</Point>
         <Point Name="HADOW" Type="Fix">+205758.100-0892602.500</Point>
         <Point Name="HANAY" Type="Fix">+252640.000-1001211.300</Point>
@@ -6677,159 +6761,231 @@
             <Route Runway="28">CRL</Route>
         </SID>
         <!--MMGL-->
-        <SID Name="GDL1A" Airport="MMGL" Runways="11">
-            <Route Runway="11">GDL</Route>
+        <SID Name="GDL1A" Airport="MMGL" Runways="11L,11R">
+            <Route Runway="11L">GDL</Route>
+			<Route Runway="11R">GDL</Route>
         </SID>
-        <SID Name="GDL1B" Airport="MMGL" Runways="29">
-            <Route Runway="29">GDL</Route>
+        <SID Name="GDL1B" Airport="MMGL" Runways="29L,29R">
+            <Route Runway="29L">GDL</Route>
+			<Route Runway="29R">GDL</Route>
         </SID>
-        <SID Name="GDL1C" Airport="MMGL" Runways="29">
-            <Route Runway="29">GDL</Route>
         </SID>
-        <SID Name="DEBRO1" Airport="MMGL" Runways="29">
-            <Route Runway="29">DEBRO</Route>
+        <SID Name="DEBRO1" Airport="MMGL" Runways="29L,29R">
+            <Route Runway="29L">DEBRO</Route>
+			<Route Runway="29R">DEBRO</Route>
         </SID>
-        <SID Name="DUNSU1" Airport="MMGL" Runways="29">
-            <Route Runway="29">DUNSU</Route>
+        <SID Name="DUNSU1" Airport="MMGL" Runways="29L,29R">
+            <Route Runway="29L">DUNSU</Route>
+			<Route Runway="29R">DUNSU</Route>
         </SID>
-        <SID Name="EBDEG1" Airport="MMGL" Runways="11">
-            <Route Runway="11">EBDEG</Route>
+        <SID Name="EBDEG1" Airport="MMGL" Runways="11L,11R">
+            <Route Runway="11L">EBDEG</Route>
+			<Route Runway="11R">EBDEG</Route>
         </SID>
-        <SID Name="EMIG1A" Airport="MMGL" Runways="11">
-            <Route Runway="11">EMIGU</Route>
+        <SID Name="EMIG1A" Airport="MMGL" Runways="11L,11R">
+            <Route Runway="11L">EMIGU</Route>
+			<Route Runway="11R">EMIGU</Route>
         </SID>
-        <SID Name="EMIG1B" Airport="MMGL" Runways="29">
-            <Route Runway="29">EMIGU</Route>
+        <SID Name="EMIG1B" Airport="MMGL" Runways="29L,29R">
+            <Route Runway="29L">EMIGU</Route>
+			<Route Runway="29R">EMIGU</Route>
         </SID>
-        <SID Name="EMIR1A" Airport="MMGL" Runways="11">
-            <Route Runway="11">GL406 GL405 GL430 ATOXO EMIRI</Route>
+        <SID Name="EMIR1A" Airport="MMGL" Runways="11L,11R">
+            <Route Runway="11L">GL405 GL430 ATOXO EMIRI</Route>
+			<Route Runway="11R">GL405 GL430 ATOXO EMIRI</Route>
         </SID>
-        <SID Name="EMIR1B" Airport="MMGL" Runways="29">
-            <Route Runway="29">GL710 GL730 GL731 ATOXO EMIRI</Route>
+        <SID Name="EMIR1B" Airport="MMGL" Runways="29L,29R">
+            <Route Runway="29L">GL710 GL730 GL731 ATOXO EMIRI</Route>
+			<Route Runway="29R">GL710 GL730 GL731 ATOXO EMIRI</Route>
         </SID>
-        <SID Name="FEIS1A" Airport="MMGL" Runways="11">
-            <Route Runway="11">GL406 GL405 GL410 FEISE</Route>
+        <SID Name="FEIS1A" Airport="MMGL" Runways="11L,11R">
+            <Route Runway="11L">GL405 GL410 GL415 FEISE</Route>
+			<Route Runway="11R">GL405 GL410 GL415 FEISE</Route>
         </SID>
-        <SID Name="FEIS1B" Airport="MMGL" Runways="29">
-            <Route Runway="29">GL710 GL720 GL721 FEISE</Route>
+        <SID Name="FEIS1B" Airport="MMGL" Runways="29L,29R">
+            <Route Runway="29L">GL710 GL720 GL721 GL750 FEISE</Route>
+			<Route Runway="29R">GL710 GL720 GL721 GL750 FEISE</Route>
         </SID>
-        <SID Name="GOYA1A" Airport="MMGL" Runways="11">
-            <Route Runway="11">GOYAS</Route>
+        <SID Name="GOYA1A" Airport="MMGL" Runways="11L,11R">
+            <Route Runway="11L">GOYAS</Route>
+			<Route Runway="11R">GOYAS</Route>
         </SID>
-        <SID Name="GOYA1B" Airport="MMGL" Runways="29">
-            <Route Runway="29">GOYAS</Route>
+        <SID Name="GOYA1B" Airport="MMGL" Runways="29L,29R">
+            <Route Runway="29L">GOYAS</Route>
+			<Route Runway="29R">GOYAS</Route>
         </SID>
-        <SID Name="KARUN1" Airport="MMGL" Runways="11">
-            <Route Runway="11">KARUN</Route>
+        <SID Name="KARUN1" Airport="MMGL" Runways="11L,11R">
+            <Route Runway="11L">KARUN</Route>
+			<Route Runway="11R">KARUN</Route>
         </SID>
-        <SID Name="KELV1A" Airport="MMGL" Runways="11">
-            <Route Runway="11">GL406 GL405 KELVA</Route>
+        <SID Name="KELV1A" Airport="MMGL" Runways="11L,11R">
+            <Route Runway="11L">GL405 KELVA</Route>
+			<Route Runway="11R">GL405 KELVA</Route>
         </SID>
-        <SID Name="KELV1B" Airport="MMGL" Runways="29">
-            <Route Runway="29">GL710 GL720 GL725 KELVA</Route>
+        <SID Name="KELV1B" Airport="MMGL" Runways="29L,29R">
+            <Route Runway="29L">GL710 GL720 GL725 KELVA</Route>
+			<Route Runway="29R">GL710 GL720 GL725 KELVA</Route>
         </SID>
-        <SID Name="LEROK1" Airport="MMGL" Runways="11">
-            <Route Runway="11">LEROK</Route>
+        <SID Name="LEROK1" Airport="MMGL" Runways="11L,11R">
+            <Route Runway="11L">LEROK</Route>
+			<Route Runway="11R">LEROK</Route>
         </SID>
-        <SID Name="LONK1D" Airport="MMGL" Runways="11">
-            <Route Runway="11">GL406 GL405 LONKU</Route>
+        <SID Name="LONK1D" Airport="MMGL" Runways="11L,11R">
+            <Route Runway="11L">GL405 LONKU</Route>
+			<Route Runway="11R">GL405 LONKU</Route>
         </SID>
-        <SID Name="LONK1E" Airport="MMGL" Runways="29">
-            <Route Runway="29">GL710 GL720 GL726 LONKU</Route>
+        <SID Name="LONK1E" Airport="MMGL" Runways="29L,29R">
+            <Route Runway="29L">GL710 GL720 GL726 LONKU</Route>
+			<Route Runway="29R">GL710 GL720 GL726 LONKU</Route>
         </SID>
-        <SID Name="NOTU1D" Airport="MMGL" Runways="11">
-            <Route Runway="11">GL406 GL420 GL421 GL422 NOTUP</Route>
+        <SID Name="NOTU1D" Airport="MMGL" Runways="11L,11R">
+            <Route Runway="11L">GL405 GL410 GL440 NOTUP</Route>
+			<Route Runway="11R">GL405 GL410 GL440 NOTUP</Route>
         </SID>
-        <SID Name="NOTU1E" Airport="MMGL" Runways="29">
-            <Route Runway="29">GL710 NOTUP</Route>
+        <SID Name="NOTU1E" Airport="MMGL" Runways="29L,29R">
+            <Route Runway="29L">GL710 NOTUP</Route>
+			<Route Runway="29R">GL710 NOTUP</Route>
         </SID>
-        <SID Name="NUBIG1" Airport="MMGL" Runways="29">
-            <Route Runway="29">NUBIG</Route>
+        <SID Name="NUBIG1" Airport="MMGL" Runways="29L,29R">
+            <Route Runway="29L">NUBIG</Route>
+			<Route Runway="29R">NUBIG</Route>
         </SID>
-        <SID Name="OVALI1" Airport="MMGL" Runways="11">
-            <Route Runway="11">OVALI</Route>
+        <SID Name="OVALI1" Airport="MMGL" Runways="11L,11R">
+            <Route Runway="11L">OVALI</Route>
+			<Route Runway="11R">OVALI</Route>
         </SID>
-        <SID Name="OTOK1A" Airport="MMGL" Runways="11">
-            <Route Runway="11">GL406 GL405 GL410 GL411 OTOKI</Route>
+        <SID Name="OTOK1A" Airport="MMGL" Runways="11L,11R">
+            <Route Runway="11L">GL405 GL410 GL411 OTOKI</Route>
+			<Route Runway="11R">GL405 GL410 GL411 OTOKI</Route>
         </SID>
-        <SID Name="OTOK1B" Airport="MMGL" Runways="29">
-            <Route Runway="29">GL710 GL711 GL712 OTOKI</Route>
+        <SID Name="OTOK1B" Airport="MMGL" Runways="29L">
+            <Route Runway="29L">GL710 GL711 GL712 OTOKI</Route>
+			<Route Runway="29R">GL710 GL711 GL712 OTOKI</Route>
         </SID>
-        <SID Name="PIRAR1" Airport="MMGL" Runways="11">
-            <Route Runway="11">PIRAR</Route>
+        <SID Name="PIRAR1" Airport="MMGL" Runways="11L,11R">
+            <Route Runway="11L">PIRAR</Route>
+			<Route Runway="11R">PIRAR</Route>
         </SID>
-        <SID Name="SEDE1A" Airport="MMGL" Runways="11">
-            <Route Runway="11">GL406 GL420 GL421 GL422 SEDEM</Route>
+        <SID Name="SEDE1A" Airport="MMGL" Runways="11L,11R">
+            <Route Runway="11L">GL405 GL410 GL440 SEDEM</Route>
+			<Route Runway="11R">GL405 GL410 GL440 SEDEM</Route>
         </SID>
-        <SID Name="SEDE1B" Airport="MMGL" Runways="29">
-            <Route Runway="29">GL710 SEDEM</Route>
+        <SID Name="SEDE1B" Airport="MMGL" Runways="29L,29R">
+            <Route Runway="29L">GL710 SEDEM</Route>
+			<Route Runway="29R">GL710 SEDEM</Route>
         </SID>
-        <SID Name="TABG1A" Airport="MMGL" Runways="11">
-            <Route Runway="11">TABGO</Route>
+        <SID Name="TABG1A" Airport="MMGL" Runways="11L,11R">
+            <Route Runway="11L">TABGO</Route>
+			<Route Runway="11R">TABGO</Route>
         </SID>
-        <SID Name="TABG1B" Airport="MMGL" Runways="29">
-            <Route Runway="29">TABGO</Route>
+        <SID Name="TABG1B" Airport="MMGL" Runways="29L,29R">
+            <Route Runway="29L">TABGO</Route>
+			<Route Runway="29R">TABGO</Route>
         </SID>
-        <SID Name="TEILA1" Airport="MMGL" Runways="29">
-            <Route Runway="29">TEILA</Route>
+        <SID Name="TEILA1" Airport="MMGL" Runways="29L,29R">
+            <Route Runway="29L">TEILA</Route>
+			<Route Runway="29R">TEILA</Route>
         </SID>
-        <SID Name="TIKIT1" Airport="MMGL" Runways="29">
-            <Route Runway="29">TIKIT</Route>
+        <SID Name="TIKIT1" Airport="MMGL" Runways="29L,29R">
+            <Route Runway="29L">TIKIT</Route>
+            <Route Runway="29R">TIKIT</Route>
         </SID>
-        <SID Name="XORID1" Airport="MMGL" Runways="11">
-            <Route Runway="11">XORID</Route>
+        <SID Name="XORID1" Airport="MMGL" Runways="11L,11R">
+            <Route Runway="11L">XORID</Route>
+			<Route Runway="11R">XORID</Route>
         </SID>
-        <STAR Name="LIPE1F" Airport="MMGL" Runways="11">
-            <Route Runway="11">LIPEP GL520 VISDA GL522 GL523 GL524 DATSO</Route>
+        <STAR Name="AMUL1A" Airport="MMGL" Runways="11L,11R">
+            <Route Runway="11L">AMULA LONVA GL573 GL550 GL551 GL552 GL553 GL554 GL555 OLAVA</Route>
+			<Route Runway="11R">AMULA LONVA GL573 GL550 GL551 GL552 GL553 GL554 GL555 OLAVA</Route>
         </STAR>
-        <STAR Name="LIPE1G" Airport="MMGL" Runways="29">
-            <Route Runway="29">LIPEP OTETA GL801 GL802 GL803 GL804 GL805 PLADE</Route>
+        <STAR Name="AMUL1B" Airport="MMGL" Runways="29L,29R">
+            <Route Runway="29L">AMULA LONVA GL820 GL821 GL822 VOLIN GL824 GL825 GL826 GL827 GL828 PLADE</Route>
+            <Route Runway="29R">AMULA LONVA GL820 GL821 GL822 VOLIN GL824 GL825 GL826 GL827 GL828 PLADE</Route>
         </STAR>
-        <STAR Name="LIVR1C" Airport="MMGL" Runways="11">
-            <Route Runway="11">LIVRI IKBAN ULOGA GL512 GL513 GL514 DULNO</Route>
+        <STAR Name="IGSO1A" Airport="MMGL" Runways="11L,11R">
+            <Route Runway="11L">IGSON ULUVO GL530 GL531 BRUJA GL560 GL561 GL562 GL563 GL564 GL565 OLAVA</Route>
+            <Route Runway="11R">IGSON ULUVO GL530 GL531 BRUJA GL560 GL561 GL562 GL563 GL564 GL565 OLAVA</Route>
         </STAR>
-        <STAR Name="LIVR1D" Airport="MMGL" Runways="29">
-            <Route Runway="29">LIVRI IKBAN GL840 UKOSI GL824 GL825 GL826 GL827 GL828 PLADE</Route>
+        <STAR Name="IGSO1B" Airport="MMGL" Runways="29L,29R">
+            <Route Runway="29L">IGSON ULUVO GL530 GL802 GL803 GL804 GL805 PLADE</Route>
+            <Route Runway="29R">IGSON ULUVO GL530 GL802 GL803 GL804 GL805 PLADE</Route>
+        </STAR>		
+		<STAR Name="KASU1A" Airport="MMGL" Runways="11L,11R">
+            <Route Runway="11L">KASUP LIPEP GL572 GL575 GL562 GL563 GL564 GL565 OLAVA</Route>
+			<Route Runway="11R">KASUP LIPEP GL572 GL575 GL562 GL563 GL564 GL565 OLAVA</Route>
         </STAR>
-        <STAR Name="LONV1C" Airport="MMGL" Runways="11">
-            <Route Runway="11">LONVA ERDAN GL501 GL502 DULNO</Route>
+        <STAR Name="KASU1B" Airport="MMGL" Runways="29L,29R">
+            <Route Runway="29L">KASUP LIPEP OTETA GL801 GL802 GL803 GL804 GL805 PLADE</Route>
+            <Route Runway="29R">KASUP LIPEP OTETA GL801 GL802 GL803 GL804 GL805 PLADE</Route>
         </STAR>
-        <STAR Name="LONV1D" Airport="MMGL" Runways="29">
-            <Route Runway="29">LONVA GL820 GL821 GL822 VOLIN GL824 GL825 GL826 GL827 GL828 PLADE</Route>
+        <STAR Name="MEZC1A" Airport="MMGL" Runways="11L,11R">
+            <Route Runway="11L">MEZCA LIVRI IKBAN ULOGA GL513 GL550 GL551 GL552 GL553 GL554 GL555 OLAVA</Route>
+			<Route Runway="11R">MEZCA LIVRI IKBAN ULOGA GL513 GL550 GL551 GL552 GL553 GL554 GL555 OLAVA</Route>
         </STAR>
-        <STAR Name="MODE1A" Airport="MMGL" Runways="11">
-            <Route Runway="11">MODEX GL540 ULOGA GL512 GL513 GL514 DULNO</Route>
+        <STAR Name="MEZC1B" Airport="MMGL" Runways="29L,29R">
+            <Route Runway="29L">MEZCA LIVRI IKBAN GL840 UKOSI GL824 GL825 GL826 GL827 GL828 PLADE</Route>
+            <Route Runway="29R">MEZCA LIVRI IKBAN GL840 UKOSI GL824 GL825 GL826 GL827 GL828 PLADE</Route>
+        </STAR>		
+        <STAR Name="MUTE1A" Airport="MMGL" Runways="11L,11R">
+            <Route Runway="11L">MUTEM GL540 ULOGA GL513 GL550 GL551 GL552 GL553 GL554 GL555 OLAVA</Route>
+			<Route Runway="11R">MUTEM GL540 ULOGA GL513 GL550 GL551 GL552 GL553 GL554 GL555 OLAVA</Route>
         </STAR>
-        <STAR Name="MODE1B" Airport="MMGL" Runways="29">
-            <Route Runway="29">MODEX GL825 GL826 GL827 GL828 PLADE</Route>
+        <STAR Name="MUTE1B" Airport="MMGL" Runways="29L,29R">
+            <Route Runway="29L">MUTEM GL825 GL826 GL827 GL828 PLADE</Route>
+            <Route Runway="29R">MUTEM GL825 GL826 GL827 GL828 PLADE</Route>
         </STAR>
-        <STAR Name="USBI1C" Airport="MMGL" Runways="11">
-            <Route Runway="11">USBIM EMEXO GL522 GL523 GL824 DATSO</Route>
+		<STAR Name="USBI1C" Airport="MMGL" Runways="11L,11R">
+            <Route Runway="11L">USBIM GL571 GL560 GL561 GL562 GL563 GL564 GL565 OLAVA</Route>
+			<Route Runway="11R">USBIM GL571 GL560 GL561 GL562 GL563 GL564 GL565 OLAVA</Route>
         </STAR>
-        <STAR Name="USBI1D" Airport="MMGL" Runways="29">
-            <Route Runway="29">USBIM OTETA GL801 GL802 GL803 GL804 GL805 PLADE</Route>
+        <STAR Name="USBI1D" Airport="MMGL" Runways="29L,29R">
+            <Route Runway="29L">USBIM OTETA GL801 GL802 GL803 GL804 GL805 PLADE</Route>
+			<Route Runway="29R">USBIM OTETA GL801 GL802 GL803 GL804 GL805 PLADE</Route>
         </STAR>
-        <STAR Name="ULUV1A" Airport="MMGL" Runways="11">
-            <Route Runway="11">ULUVO GL530 GL531 GL532 BRUJA GL534 GL535 DATSO</Route>
+        <STAR Name="VOLA1A" Airport="MMGL" Runways="11L,11R">
+            <Route Runway="11L">VOLAT GL572 GL575 GL562 GL563 GL564 GL565 OLAVA</Route>
+			<Route Runway="11R">VOLAT GL572 GL575 GL562 GL563 GL564 GL565 OLAVA</Route>
         </STAR>
-        <STAR Name="ULUV1B" Airport="MMGL" Runways="29">
-            <Route Runway="29">ULUVO GL530 GL802 GL803 GL804 GL805 PLADE</Route>
+        <STAR Name="VOLA1B" Airport="MMGL" Runways="29L,29R">
+            <Route Runway="29L">VOLAT OTETA GL801 GL802 GL803 GL804 GL805 PLADE</Route>
+            <Route Runway="29R">VOLAT OTETA GL801 GL802 GL803 GL804 GL805 PLADE</Route>
         </STAR>
-        <Approach Name="ILS11Z.DATSO" Airport="MMGL" Runway="11">
+        <Approach Name="ILS11RX.DATSO" Airport="MMGL" Runway="11R">
             <Route>DATSO GL620 GL621 GL622 GL623</Route>
         </Approach>
-        <Approach Name="ILS11Z.DULNO" Airport="MMGL" Runway="11">
+        <Approach Name="ILS11RX.DULNO" Airport="MMGL" Runway="11R">
             <Route>DULNO GL620 GL621 GL622 GL623</Route>
         </Approach>
-        <Approach Name="ILS29Z.APRIM" Airport="MMGL" Runway="29">
+		<Approach Name="ILS11RX.OLAVA" Airport="MMGL" Runway="11R">
+            <Route>OLAVA GL620 GL621 GL622 GL623</Route>
+        </Approach>
+		<Approach Name="RNP11L.DATSO" Airport="MMGL" Runway="11L">
+            <Route>DATSO GL630 GL631 GL632 GL633</Route>
+        </Approach>
+		<Approach Name="RNP11L.DULNO" Airport="MMGL" Runway="11L">
+            <Route>DULNO GL630 GL631 GL632 GL633</Route>
+        </Approach>
+		<Approach Name="RNP11L.OLAVA" Airport="MMGL" Runway="11L">
+            <Route>OLAVA GL630 GL631 GL632 GL633</Route>
+        </Approach>
+        <Approach Name="ILS29LX.APRIM" Airport="MMGL" Runway="29L">
             <Route>APRIM GL980 GL981</Route>
         </Approach>
-        <Approach Name="ILS29Z.AXELO" Airport="MMGL" Runway="29">
-            <Route>AXELO GL980 GL981</Route>
+        <Approach Name="ILS29LX.SEKIS" Airport="MMGL" Runway="29L">
+            <Route>SEKIS GL980 GL981</Route>
         </Approach>
-        <Approach Name="ILS29Z.PLADE" Airport="MMGL" Runway="29">
+        <Approach Name="ILS29LX.PLADE" Airport="MMGL" Runway="29L">
             <Route>PLADE GL980 GL981</Route>
         </Approach>
+        <Approach Name="RNP29R.APRIM" Airport="MMGL" Runway="29R">
+            <Route>APRIM GL990 GL991 GL992</Route>
+        </Approach>
+        <Approach Name="RNP29R.SEKIS" Airport="MMGL" Runway="29R">
+            <Route>SEKIS GL990 GL991 GL992</Route>
+        </Approach>		
+        <Approach Name="RNP29R.PLADE" Airport="MMGL" Runway="29R">
+            <Route>PLADE GL990 GL991 GL992</Route>
+        </Approach>		
         <!--MMGM-->
         <SID Name="GYM1" Airport="MMGM" Runways="02">
             <Route Runway="02">GYM</Route>
@@ -10081,10 +10237,10 @@
             <Runway Name="28" Position="+274317.630-1073833.210" />
         </Airport>
         <Airport ICAO="MMGL" FullName="GUADALAJARA" Position="+203118.610-1031840.120" Elevation="5016">
-            <Runway Name="11" Position="+203143.630-1031939.710" />
-            <Runway Name="29" Position="+203050.660-1031733.600" />
-            <Runway Name="02" Position="+203115.210-1031842.220" />
-            <Runway Name="20" Position="+203205.770-1031810.920" />
+            <Runway Name="11R" Position="+203143.630-1031939.710" />
+            <Runway Name="29L" Position="+203050.660-1031733.600" />
+            <Runway Name="11L" Position="+203151.660-1031935.980" />
+            <Runway Name="29R" Position="+203104.820-1031744.420" />
         </Airport>
         <Airport ICAO="MMGM" FullName="GUAYMAS" Position="+275809.540-1105525.390" Elevation="59">
             <Runway Name="02" Position="+275736.460-1105546.650" />
