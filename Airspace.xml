@@ -1836,7 +1836,7 @@
             REX/CAMUI/ITPIS/MTY
         </Airway>
         <Airway Name="V14">
-            PVR/LIPEP/DUNSU/GDL/KARUN/ERBOS/URVEM/FRESA/QET
+            PVR/KASUP/DUNSU/GDL/KARUN/ERBOS/URVEM/FRESA/QET
         </Airway>
         <Airway Name="V14N">
             PVR/NOTUP/NUBIG/GDL
@@ -1905,7 +1905,7 @@
             MTT/IZT
         </Airway>
         <Airway Name="V32">
-            GDL/XORID/JASTO/MODEX/NOSUK/BJX/NAGIV/FRESA/XOVAB/XOTKI/PTJ/TLC/CVJ/TEQ
+            GDL/XORID/JASTO/MODEX/MUTEM/NOSUK/BJX/NAGIV/FRESA/XOVAB/XOTKI/PTJ/TLC/CVJ/TEQ
         </Airway>
         <Airway Name="V33">
             VER/OTILO/MISAS/RETOM/OMATO/IZT
@@ -2142,7 +2142,7 @@
             REX/CAMUI/ITPIS/MTY
         </Airway>
         <Airway Name="UJ14">
-            CEN/AXUNO/ENEKO/MARUX/SJD/XUGNU/ROBSO/KEDIX/MAVIK/SEKEV/PVR/LIPEP/DUNSU/GDL/KARUN/ERBOS/URVEM/FRESA/QET/ROGDI/UDMAN/AVSUB/ERILI/TMN/IPTUN/TAM
+            CEN/AXUNO/ENEKO/MARUX/SJD/XUGNU/ROBSO/KEDIX/MAVIK/SEKEV/PVR/KASUP/LIPEP/DUNSU/GDL/KARUN/ERBOS/URVEM/FRESA/QET/ROGDI/UDMAN/AVSUB/ERILI/TMN/IPTUN/TAM
         </Airway>
         <Airway Name="UJ14N">
             PVR/NOTUP/NUBIG/GDL
@@ -2829,7 +2829,7 @@
             SLP/AVPUS/ULUAS/TAKSO/AVSUB/AVALI
         </Airway>
         <Airway Name="UT150">
-            GDL/XORID/JASTO/MODEX/NOSUK/BJX/AVRIK/MEDAB/URNAT/QET/DARAN
+            GDL/XORID/JASTO/MODEX/MUTEM/NOSUK/BJX/AVRIK/MEDAB/URNAT/QET/DARAN
         </Airway>
         <Airway Name="UT151">
             MAM/DARVO/PLAYA/IPRUL/TULUN/ALUXU/UKROR/NABES/VER/LEXUR/OAX
@@ -3315,6 +3315,7 @@
         <Point Name="KARIR" Type="Fix">+213328.700-1010138.700</Point>
         <Point Name="KARUN" Type="Fix">+203236.460-1024645.450</Point>
         <Point Name="KASIV" Type="Fix">+203609.300-0875822.200</Point>
+        <Point Name="KASUP" Type="Fix">+203733.000-1042706.000</Point>
         <Point Name="KATIS" Type="Fix">+115910.000-0982504.000</Point>
         <Point Name="KATLA" Type="Fix">+244850.000-1024957.000</Point>
         <Point Name="KATLI" Type="Fix">+252527.000-1062249.000</Point>
@@ -3451,6 +3452,7 @@
         <Point Name="MURBU" Type="Fix">+193712.100-0872013.500</Point>
         <Point Name="MURDA" Type="Fix">+223334.000-1014607.000</Point>
         <Point Name="MURDU" Type="Fix">+263815.000-1015516.000</Point>
+        <Point Name="MUTEM" Type="Fix">+204733.000-1021703.000</Point>
         <Point Name="MUTUB" Type="Fix">+233001.000-1035543.000</Point>
         <Point Name="MUVAP" Type="Fix">+174900.000-0900647.000</Point>
         <Point Name="MUVAR" Type="Fix">+171147.000-0993005.000</Point>
@@ -5587,12 +5589,12 @@
         <Point Name="TAM" Type="Navaid" NavaidType="VOR" Frequency="117.500">+221722.570-0975146.880</Point>
         <Point Name="TAP" Type="Navaid" NavaidType="VOR" Frequency="115.300">+144731.880-0922232.560</Point>
         <Point Name="TEQ" Type="Navaid" NavaidType="VOR" Frequency="113.100">+184033.900-0991519.130</Point>
-        <Point Name="TGM" Type="Navaid" NavaidType="VOR" Frequency="117.300">+164424.000-0931029.000</Point>
         <Point Name="TGZ" Type="Navaid" NavaidType="VOR" Frequency="115.700">+163414.080-0930148.350</Point>
         <Point Name="TIJ" Type="Navaid" NavaidType="VOR" Frequency="116.500">+323225.590-1165709.720</Point>
         <Point Name="TLC" Type="Navaid" NavaidType="VOR" Frequency="114.300">+191958.320-0993339.720</Point>
         <Point Name="TMN" Type="Navaid" NavaidType="VOR" Frequency="113.300">+220218.540-0984828.610</Point>
         <Point Name="TNY" Type="Navaid" NavaidType="VOR" Frequency="113.900">+212535.460-1045013.130</Point>
+		<Point Name="TQO" Type="Navaid" NavaidType="VOR" Frequency="115.000">+200937.490-0873818.820</Point>
         <Point Name="TRC" Type="Navaid" NavaidType="VOR" Frequency="116.400">+253350.270-1032430.270</Point>
         <Point Name="TTM" Type="Navaid" NavaidType="VOR" Frequency="114.400">+225804.250-0994621.670</Point>
         <Point Name="UPN" Type="Navaid" NavaidType="VOR" Frequency="114.200">+192344.720-1020227.920</Point>
