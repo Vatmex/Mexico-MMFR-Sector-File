@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-    <Map Type="System" Name="Pista 29 - Llegadas RNAV" Priority="1" Center="+203124.320-1031841.798">
-        <Line Name="LONVA1D" Pattern="Dashed">LONVA/GL820/GL821/GL822/VOLIN/GL824/GL825/GL826/GL827/GL828/PLADE</Line>
-        <Line Name="LIVRI1D" Pattern="Dashed">LIVRI/IKBAN/GL840/UKOSI/GL824</Line>
-        <Line Name="MODEX1B" Pattern="Dashed">MODEX/GL825</Line>
-        <Line Name="ULUVO1B" Pattern="Dashed">ULUVO/GL530/GL802/GL803/GL804/GL805/PLADE</Line>
+    <Map Type="System" Name="Pista 29L/R - Llegadas RNAV" Priority="1" Center="+203124.320-1031841.798">
+        <Line Name="AMULA1B" Pattern="Dashed">AMULA/LONVA/GL820/GL821/GL822/VOLIN/GL824/GL825/GL826/GL827/GL828/PLADE</Line>
+        <Line Name="MEZCA1B" Pattern="Dashed">MEZCA/LIVRI/IKBAN/GL840/UKOSI/GL824</Line>
+        <Line Name="MUTEM1B" Pattern="Dashed">MUTEM/GL825</Line>
+        <Line Name="IGSON1B" Pattern="Dashed">IGSON/ULUVO/GL530/GL802/GL803/GL804/GL805/PLADE</Line>
         <Line Name="USBIM1D" Pattern="Dashed">USBIM/OTETA/GL801/GL802</Line>
-        <Line Name="LIPEP1D" Pattern="Dashed">LIPEP/OTETA</Line>
+        <Line Name="VOLAT1B" Pattern="Dashed">VOLAT/OTETA</Line>
+        <Line Name="KASUP1B" Pattern="Dashed">KASUP/LIPEP/OTETA</Line>
         <Symbol Type="HollowStar">
+            <Point>AMULA</Point>
             <Point>GL530</Point>
             <Point>GL801</Point>
             <Point>GL802</Point>
@@ -23,31 +25,37 @@
             <Point>GL827</Point>
             <Point>GL828</Point>
             <Point>GL840</Point>
+            <Point>IGSON</Point>
             <Point>IKBAN</Point>
+            <Point>KASUP</Point>	
             <Point>LIPEP</Point>
             <Point>LIVRI</Point>
             <Point>LONVA</Point>
-            <Point>MODEX</Point>
+            <Point>MEZCA</Point>
+            <Point>MUTEM</Point>
             <Point>OTETA</Point>
             <Point>PLADE</Point>
             <Point>UKOSI</Point>
             <Point>ULUVO</Point>
             <Point>USBIM</Point>
+            <Point>VOLAT</Point>
             <Point>VOLIN</Point>
         </Symbol>
     </Map>
-    <Map Type="System" Name="Pista 29 - Llegadas RNAV (Nombres)" Priority="1" Center="+203124.320-1031841.798">
+    <Map Type="System" Name="Pista 29L/R - Llegadas RNAV (Nombres)" Priority="1" Center="+203124.320-1031841.798">
         <Label HasLeader="false">
-            <Point>LIPEP</Point>
-            <Point>LIVRI</Point>
-            <Point>LONVA</Point>
-            <Point>MODEX</Point>
-            <Point>PLADE</Point>
-            <Point>ULUVO</Point>
+            <Point>IGSON</Point>
+            <Point>VOLAT</Point>
+            <Point>KASUP</Point>
+            <Point>AMULA</Point>
+            <Point>MEZCA</Point>
+            <Point>MUTEM</Point>
             <Point>USBIM</Point>
         </Label>
     </Map>
-    <Map Type="System" Name="Pista 29 - Llegadas RNAV (Vectores)" Priority="1" Center="+203124.320-1031841.798">
+
+<!--En revision
+    <Map Type="System" Name="Pista 29L/R - Llegadas RNAV (Vectores)" Priority="1" Center="+203124.320-1031841.798">
         <Line Name="PLADER022">+202353.280-1030101.559/+204555.865-1024831.278</Line>
         <Line Name="PLADER162">+202353.280-1030101.559/+195928.092-1025529.287</Line>
         <Line Name="PLADED25">
@@ -181,9 +189,10 @@
 +201908.358-1025922.788/
 +201900.242-1025955.104</Line>
     </Map>
-    <Map Type="System" Name="Pista 29 - ILS Z 29" Priority="1" Center="+203124.320-1031841.798">
-        <Line Pattern="Solid">PLADE/GDL</Line>
-        <Line Pattern="Solid">APRIM/AXELO</Line>
+-->
+    <Map Type="System" Name="Pista 29L - ILS X 29L" Priority="1" Center="+203124.320-1031841.798">
+        <Line Pattern="Solid">PLADE/+203050.700-1031733.600</Line>
+        <Line Pattern="Solid">APRIM/SEKIS</Line>
         <Line Name="D1" Pattern="Solid">+203043.113-1031751.539/+203115.826-1031735.621</Line>
         <Line Name="D2" Pattern="Solid">+203018.266-1031653.323/+203050.979-1031637.406</Line>
         <Line Name="D3" Pattern="Solid">+202953.418-1031555.109/+203026.131-1031539.192/</Line>
@@ -214,19 +223,19 @@
         <Line Name="D28" Pattern="Solid">+202936.463-1030140.652/+202951.085-1030215.713</Line>
         <Symbol Type="HollowStar">
             <Point>APRIM</Point>
-            <Point>AXELO</Point>
+            <Point>SEKIM</Point>
             <Point>GL980</Point>
             <Point>GL981</Point>
             <Point>PLADE</Point>
         </Symbol>
     </Map>
-    <Map Type="System" Name="Pista 29 - Salidas RNAV" Priority="1" Center="+203124.320-1031841.798">
+    <Map Type="System" Name="Pista 29L/R - Salidas RNAV" Priority="1" Center="+203124.320-1031841.798">
         <Line Name="OTOKI1B" Pattern="Dotted">GDL/GL710/GL711/GL712/OTOKI</Line>
-        <Line Name="FEISE1B" Pattern="Dotted">GL710/GL720/GL721/FEISE</Line>
+        <Line Name="FEISE1B" Pattern="Dotted">GL710/GL720/GL721/GL750/FEISE</Line>
         <Line Name="KELVA1B" Pattern="Dotted">GL720/GL725/KELVA</Line>
         <Line Name="LONKUIE" Pattern="Dotted">GL720/GL726/LONKU</Line>
         <Line Name="EMIRI1B" Pattern="Dotted">GL710/GL730/GL731/ATOXO/EMIRI</Line>
-        <Line Name="NOTUP1C" Pattern="Dotted">GL710/NOTUP</Line>
+        <Line Name="NOTUP1E" Pattern="Dotted">GL710/NOTUP</Line>
         <Line Name="SEDEM1B" Pattern="Dotted">GL710/SEDEM</Line>
         <Symbol Type="HollowStar">
             <Point>ATOXO</Point>
@@ -241,6 +250,7 @@
             <Point>GL726</Point>
             <Point>GL730</Point>
             <Point>GL731</Point>
+            <Point>GL750</Point>
             <Point>KELVA</Point>
             <Point>LONKU</Point>
             <Point>NOTUP</Point>
@@ -248,7 +258,7 @@
             <Point>SEDEM</Point>
         </Symbol>
     </Map>
-    <Map Type="System" Name="Pista 29 - Salidas RNAV (Nombres)" Priority="1" Center="+203124.320-1031841.798">
+    <Map Type="System" Name="Pista 29L/R - Salidas RNAV (Nombres)" Priority="1" Center="+203124.320-1031841.798">
         <Label HasLeader="false">
             <Point>EMIRI</Point>
             <Point>FEISE</Point>
