@@ -890,10 +890,10 @@
                 <SID Name="TEVO2A" />
                 <SID Name="UKUN3A" />
                 <SID Name="ULEB3A" />
-                <STAR Name="DARA2A" ApproachName="RNP05L.SUTAS" />
-                <STAR Name="ENAG2A" ApproachName="RNP05L.SUTAS" />
-                <STAR Name="ESPO2A" ApproachName="RNP05L.VOLUN" />
-                <STAR Name="LARL3A" ApproachName="RNP05L.VOLUN" />
+                <STAR Name="DARA3A" ApproachName="RNP05LZ.UKTEN" />
+                <STAR Name="ENAG3A" ApproachName="RNP05LZ.UKTEN" />
+                <STAR Name="ESPO3A" ApproachName="RNP05LZ.EPRIM" />
+                <STAR Name="LARL4A" ApproachName="RNP05LZ.EPRIM" />
             </Runway>
             <Runway Name="05R" DataRunway="05R">
                 <SID Name="ATUR2A" />
@@ -906,10 +906,10 @@
                 <SID Name="TEVO2A" />
                 <SID Name="UKUN3A" />
                 <SID Name="ULEB3A" />
-                <STAR Name="DARA2A" ApproachName="ILS05RZ.SUTAS" />
-                <STAR Name="ENAG2A" ApproachName="ILS05RZ.SUTAS" />
-                <STAR Name="ESPO2A" ApproachName="ILS05RZ.VOLUN" />
-                <STAR Name="LARL3A" ApproachName="ILS05RZ.VOLUN" />
+                <STAR Name="DARA3A" ApproachName="ILS05RZ.UKTEN" />
+                <STAR Name="ENAG3A" ApproachName="ILS05RZ.UKTEN" />
+                <STAR Name="ESPO3A" ApproachName="ILS05RZ.EPRIM" />
+                <STAR Name="LARL4A" ApproachName="ILS05RZ.EPRIM" />
             </Runway>
             <Runway Name="23L" DataRunway="23L">
                 <SID Name="ATUR3B" />
@@ -4346,6 +4346,7 @@
         <Point Name="EMOXI" Type="Fix">+195827.800-0984849.800</Point>
         <Point Name="EMPAM" Type="Fix">+202403.100-0864036.000</Point>
         <Point Name="ENTRI" Type="Fix">+255112.300-1000142.300</Point>
+		<Point Name="EPRIM" Type="Fix">+191432.400-0990433.500</Point>
         <Point Name="ERDAN" Type="Fix">+210523.740-1033438.920</Point>
         <Point Name="ESKIE" Type="Fix">+201406.600-0873529.700</Point>
         <Point Name="ESRAP" Type="Fix">+253256.900-1002915.200</Point>
@@ -5269,6 +5270,7 @@
         <Point Name="TRANA" Type="Fix">+193005.800-0991129.900</Point>
         <Point Name="TUBUS" Type="Fix">+322109.900-1170437.999</Point>
         <Point Name="UDNAP" Type="Fix">+204236.100-0900801.399</Point>
+		<Point Name="UKTEN" Type="Fix">+193137.800-0991407.100</Point>
         <Point Name="UKVAS" Type="Fix">+213050.300-0860804.200</Point>
         <Point Name="ULAVA" Type="Fix">+255709.600-0992147.000</Point>
         <Point Name="ULBOX" Type="Fix">+211901.900-0860123.500</Point>
@@ -7957,22 +7959,22 @@
             <Route Runway="23R">MX503 MX520 MX521 RAKEM MASAP SEBON</Route>
         </SID>
         <!-- MMMX-STAR-1 -->
-        <STAR Name="DARA2A" Airport="MMMX" Runways="05L,05R">
-            <Route Runway="05L">DARAN MX750 MX752 MX754 MX756 ALMIS MX717 SUTAS</Route>
-            <Route Runway="05R">DARAN MX750 MX752 MX754 MX756 ALMIS MX717 SUTAS</Route>
+        <STAR Name="DARA3A" Airport="MMMX" Runways="05L,05R">
+            <Route Runway="05L">DARAN MX750 MX752 MX754 MX756 ALMIS UKTEN</Route>
+            <Route Runway="05R">DARAN MX750 MX752 MX754 MX756 ALMIS UKTEN</Route>
         </STAR>
-        <STAR Name="ESPO2A" Airport="MMMX" Runways="05L,05R">
-            <Route Runway="05L">ESPOS MX770 MX772 MX774 MX776 URNOK MX741 VOLUN</Route>
-            <Route Runway="05R">ESPOS MX770 MX772 MX774 MX776 URNOK MX741 VOLUN</Route>
+        <STAR Name="ESPO3A" Airport="MMMX" Runways="05L,05R">
+            <Route Runway="05L">ESPOS MX770 MX772 MX774 MX776 URNOK EPRIM</Route>
+            <Route Runway="05R">ESPOS MX770 MX772 MX774 MX776 URNOK EPRIM</Route>
         </STAR>
         <!-- MMMX-STAR-2 -->
-        <STAR Name="ENAG2A" Airport="MMMX" Runways="05L,05R">
-            <Route Runway="05L">ENAGA MX751 MX753 MX755 MX757 MX759 ALMIS MX717 SUTAS</Route>
-            <Route Runway="05R">ENAGA MX751 MX753 MX755 MX757 MX759 ALMIS MX717 SUTAS</Route>
+        <STAR Name="ENAG3A" Airport="MMMX" Runways="05L,05R">
+            <Route Runway="05L">ENAGA MX751 MX753 MX755 MX757 MX759 ALMIS UKTEN</Route>
+            <Route Runway="05R">ENAGA MX751 MX753 MX755 MX757 MX759 ALMIS UKTEN</Route>
         </STAR>
-        <STAR Name="LARL3A" Airport="MMMX" Runways="05L,05R">
-            <Route Runway="05L">LARLO MX771 MX773 MX775 MX777 URNOK MX741 VOLUN</Route>
-            <Route Runway="05R">LARLO MX771 MX773 MX775 MX777 URNOK MX741 VOLUN</Route>
+        <STAR Name="LARL4A" Airport="MMMX" Runways="05L,05R">
+            <Route Runway="05L">LARLO MX771 MX773 MX775 MX777 URNOK EPRIM</Route>
+            <Route Runway="05R">LARLO MX771 MX773 MX775 MX777 URNOK EPRIM</Route>
         </STAR>
         <!-- MMMX-STAR-3 -->
         <STAR Name="DARA3B" Airport="MMMX" Runways="23L,23R">
@@ -7995,11 +7997,11 @@
             <Route Runway="23R">LARLO PBC MX665 MX666 MX667 MX669 MX671 MX602 SESTA ESTIN</Route>
         </STAR>
         <!-- MMMX-IAC-1 -->
-        <Approach Name="ILS05RZ.SUTAS" Airport="MMMX" Runway="05R">
-            <Route>SUTAS MX901 MX900</Route>
+        <Approach Name="ILS05RZ.UKTEN" Airport="MMMX" Runway="05R">
+            <Route>UKTEN SUTAS MX901 MX900</Route>
         </Approach>
-        <Approach Name="ILS05RZ.VOLUN" Airport="MMMX" Runway="05R">
-            <Route>VOLUN MX901 MX900</Route>
+        <Approach Name="ILS05RZ.EPRIM" Airport="MMMX" Runway="05R">
+            <Route>EPRIM VOLUN MX901 MX900</Route>
         </Approach>
         <!-- MMMX-IAC-2 -->
         <Approach Name="ILS23LZ.ESTIN" Airport="MMMX" Runway="23L">
@@ -8009,11 +8011,11 @@
             <Route>VIKSA MX403 MX402</Route>
         </Approach>
         <!-- MMMX-IAC-3 -->
-        <Approach Name="RNP05L.SUTAS" Airport="MMMX" Runway="05L">
-            <Route>SUTAS MX930 MX931</Route>
+        <Approach Name="RNP05LZ.UKTEN" Airport="MMMX" Runway="05L">
+            <Route>UKTEN SUTAS MX930 MX931</Route>
         </Approach>
-        <Approach Name="RNP05L.VOLUN" Airport="MMMX" Runway="05L">
-            <Route>VOLUN MX930 MX931</Route>
+        <Approach Name="RNP05LZ.EPRIM" Airport="MMMX" Runway="05L">
+            <Route>EPRIM VOLUN MX930 MX931</Route>
         </Approach>
         <!-- MMMX-IAC-6 -->
         <Approach Name="RNP23R.ESTIN" Airport="MMMX" Runway="23R">
