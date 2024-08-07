@@ -1430,8 +1430,8 @@
                 <SID Name="TUMA1A" />
                 <SID Name="UDMO1A" />
                 <SID Name="ULDU1A" />
-                <STAR Name="TANR1A" ApproachName="ILS093.TUBUS" />
-                <STAR Name="TOVE1A" ApproachName="ILS093.TUBUS" />
+                <STAR Name="TANR1A" ApproachName="ILS09X.TUBUS" />
+                <STAR Name="TOVE1A" ApproachName="ILS09X.TUBUS" />
             </Runway>
             <Runway Name="27" DataRunway="27">
                 <SID Name="TIJ4B" Default="True" />
@@ -9243,7 +9243,7 @@
         <STAR Name="TOVE2B" Airport="MMTJ" Runways="27">
             <Route Runway="27">TOVES ENS KREPE</Route>
         </STAR>
-        <Approach Name="ILS093.TUBUS" Airport="MMTJ" Runway="09">
+        <Approach Name="ILS09X.TUBUS" Airport="MMTJ" Runway="09">
             <Route>TUBUS TJ423 TJ402 TJ414 TJ415 TJ416</Route>
         </Approach>
         <Approach Name="RNP27.KREPE" Airport="MMTJ" Runway="27">
