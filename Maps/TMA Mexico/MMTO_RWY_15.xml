@@ -3,13 +3,13 @@
     <Map Type="System" Name="MMTO - Pista 15 - Llegadas RNAV" Priority="1" Center="+192617.580-0990407.680">
         <Line Name="ELILA2A" Pattern="Dashed">ELILA/TO621/TO622/TO623/TO630/TO625/TO626/TO627/TO628/GAINY</Line>
         <Line Name="ITLAS2A" Pattern="Dashed">ITLAS/TO613/TO614/TO615/TO616/GAINY</Line>
-        <Line Name="LENUL2A" Pattern="Dashed">LENUL/TO634/TO632/TO601/TO602/TO603/TO604/TO605/TO606/TO607/TO608/GAINY</Line>
+        <Line Name="LENUL3A" Pattern="Dashed">LENUL/TO634/TO632/SEGUM/TO602/TO603/TO604/TO605/TO606/TO607/TO608/GAINY</Line>
         <Symbol Type="HollowStar">
             <Point>ELILA</Point>
             <Point>GAINY</Point>
             <Point>ITLAS</Point>
             <Point>LENUL</Point>
-            <Point>TO601</Point>
+            <Point>SEGUM</Point>
             <Point>TO602</Point>
             <Point>TO603</Point>
             <Point>TO604</Point>
@@ -178,7 +178,7 @@
 +194711.786-0995000.730/
 +194720.957-0994928.896</Line>
     </Map>
-    <Map Type="System" Name="MMTO - Pista 15 - ILS Z 15" Priority="1" Center="+192617.580-0990407.680">
+    <Map Type="System" Name="MMTO - Pista 15 - ILS X 15" Priority="1" Center="+192617.580-0990407.680">
         <Line Pattern="Solid">GAINY/TO902/ALOMI/+192115.700-0993425.900</Line>
         <Symbol Type="HollowStar">
             <Point>ALOMI</Point>
