@@ -1533,9 +1533,9 @@
                 <SID Name="SEBO3C" />
                 <SID Name="TEVO2C" />
                 <SID Name="ULEB3C" />
-                <STAR Name="ELIL2A" ApproachName="ILS15Z.GAINY" />
-                <STAR Name="ITLA2A" ApproachName="ILS15Z.GAINY" />
-                <STAR Name="LENU2A" ApproachName="ILS15Z.GAINY" />
+                <STAR Name="ELIL2A" ApproachName="ILS15X.GAINY" />
+                <STAR Name="ITLA2A" ApproachName="ILS15X.GAINY" />
+                <STAR Name="LENU3A" ApproachName="ILS15X.GAINY" />
             </Runway>
             <Runway Name="33" DataRunway="33">
                 <SID Name="KEBS3A" />
@@ -3746,6 +3746,7 @@
         <Point Name="SEKEV" Type="Fix">+205154.000-1053237.000</Point>
 		<Point Name="SEKIS" Type="Fix">+201846.700-1030710.300</Point>
         <Point Name="SEKUB" Type="Fix">+233830.000-1034705.000</Point>
+        <Point Name="SEGUM" Type="Fix">+193847.100-0991910.500</Point>
         <Point Name="SELIR" Type="Fix">+212717.000-0975451.000</Point>
         <Point Name="SELIS" Type="Fix">+164842.000-0990335.000</Point>
         <Point Name="SELUL" Type="Fix">+225110.000-0881414.000</Point>
@@ -9482,8 +9483,8 @@
             <Route Runway="33">TO505 TO501 SEBON</Route>
         </SID>
         <!-- MMTO-STAR-1 -->
-        <STAR Name="LENU2A" Airport="MMTO" Runways="15">
-            <Route Runway="15">LENUL TO634 TO632 TO601 TO602 TO603 TO604 TO605 TO606 TO607 TO608 GAINY</Route>
+        <STAR Name="LENU3A" Airport="MMTO" Runways="15">
+            <Route Runway="15">LENUL TO634 TO632 SEGUM TO602 TO603 TO604 TO605 TO606 TO607 TO608 GAINY</Route>
         </STAR>
         <STAR Name="ELIL2A" Airport="MMTO" Runways="15">
             <Route Runway="15">ELILA TO621 TO622 TO623 TO630 TO625 TO626 TO627 TO628 GAINY</Route>
@@ -9502,7 +9503,7 @@
             <Route Runway="33">ITLAS TO430 TO431 TO432 TO433 SEDIM TO401 TO402 TO403 TO404 TO405 VERLU</Route>
         </STAR>
         <!-- MMTO-IAC-5 -->
-        <Approach Name="ILS15Z.GAINY" Airport="MMTO" Runway="15">
+        <Approach Name="ILS15X.GAINY" Airport="MMTO" Runway="15">
             <Route Runway="15">GAINY TO902 ALOMI</Route>
         </Approach>
         <!-- MMTO-IAC-7 -->
