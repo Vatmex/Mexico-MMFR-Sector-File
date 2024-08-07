@@ -2585,7 +2585,7 @@
                 <Map Name="TMA Guadalajara/Aeropuerto - Minimas de Vectoreo" />
                 <Map Name="TMA Guadalajara/Aeropuerto - Zona de Control (CTR)" />
 
-                <Map Name="TMA Guadalajara/Pista 29 - ILS Z 29" />
+                <Map Name="TMA Guadalajara/Pistas 29 - ILS X 29L" />
 
                 <Map Name="ACC Mexico/Limites - Sectores" />
 
@@ -2617,7 +2617,7 @@
                 <Map Name="TMA Guadalajara/Aeropuerto - Minimas de Vectoreo" />
                 <Map Name="TMA Guadalajara/Aeropuerto - Zona de Control (CTR)" />
 
-                <Map Name="TMA Guadalajara/Pista 29 - ILS Z 29" />
+                <Map Name="TMA Guadalajara/Pistas 29 - ILS X 29L" />
 
                 <Map Name="ACC Mexico/Limites - Sectores" />
 
@@ -2649,7 +2649,7 @@
                 <Map Name="TMA Guadalajara/Aeropuerto - Minimas de Vectoreo" />
                 <Map Name="TMA Guadalajara/Aeropuerto - Zona de Control (CTR)" />
 
-                <Map Name="TMA Guadalajara/Pista 29 - ILS Z 29" />
+                <Map Name="TMA Guadalajara/Pistas 29 - ILS X 29L" />
 
                 <Map Name="ACC Mexico/Limites - Sectores" />
 
@@ -2686,12 +2686,12 @@
                 <Map Name="TMA Guadalajara/Aeropuerto - Area Terminal (TMA)" />
                 <Map Name="TMA Guadalajara/Aeropuerto - Zona de Control (CTR)" />
 
-                <Map Name="TMA Guadalajara/Pista 29 - Llegadas RNAV" />
-                <Map Name="TMA Guadalajara/Pista 29 - Llegadas RNAV (Nombres)" />
-                <Map Name="TMA Guadalajara/Pista 29 - Llegadas RNAV (Vectores)" />
-                <Map Name="TMA Guadalajara/Pista 29 - ILS Z 29" />
-                <Map Name="TMA Guadalajara/Pista 29 - Salidas RNAV" />
-                <Map Name="TMA Guadalajara/Pista 29 - Salidas RNAV (Nombres)" />
+                <Map Name="TMA Guadalajara/Pistas 29 - Llegadas RNAV" />
+                <Map Name="TMA Guadalajara/Pistas 29 - Llegadas RNAV (Nombres)" />
+                <Map Name="TMA Guadalajara/Pistas 29 - Llegadas RNAV (Vectores)" />
+                <Map Name="TMA Guadalajara/Pistas 29 - ILS X 29L" />
+                <Map Name="TMA Guadalajara/Pistas 29 - Salidas RNAV" />
+                <Map Name="TMA Guadalajara/Pistas 29 - Salidas RNAV (Nombres)" />
 
                 <Map Name="ACC Mexico/Limites - Sectores" />
 
@@ -2730,12 +2730,12 @@
                 <Map Name="TMA Guadalajara/Aeropuerto - Area Terminal (TMA)" />
                 <Map Name="TMA Guadalajara/Aeropuerto - Zona de Control (CTR)" />
 
-                <Map Name="TMA Guadalajara/Pista 29 - Llegadas RNAV" />
-                <Map Name="TMA Guadalajara/Pista 29 - Llegadas RNAV (Nombres)" />
-                <Map Name="TMA Guadalajara/Pista 29 - Llegadas RNAV (Vectores)" />
-                <Map Name="TMA Guadalajara/Pista 29 - ILS Z 29" />
-                <Map Name="TMA Guadalajara/Pista 29 - Salidas RNAV" />
-                <Map Name="TMA Guadalajara/Pista 29 - Salidas RNAV (Nombres)" />
+                <Map Name="TMA Guadalajara/Pistas 29 - Llegadas RNAV" />
+                <Map Name="TMA Guadalajara/Pistas 29 - Llegadas RNAV (Nombres)" />
+                <Map Name="TMA Guadalajara/Pistas 29 - Llegadas RNAV (Vectores)" />
+                <Map Name="TMA Guadalajara/Pistas 29 - ILS X 29L" />
+                <Map Name="TMA Guadalajara/Pistas 29 - Salidas RNAV" />
+                <Map Name="TMA Guadalajara/Pistas 29 - Salidas RNAV (Nombres)" />
 
                 <Map Name="ACC Mexico/Limites - Sectores" />
 
