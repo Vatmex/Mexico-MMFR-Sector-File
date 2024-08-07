@@ -1,59 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-    <Map Type="System" Name="Pista 11 - Llegadas RNAV" Priority="1" Center="+203124.320-1031841.798">
-        <Line Name="ULUVO1A" Pattern="Dashed">ULUVO/GL530/GL531/GL532/BRUJA/GL534/GL535/DATSO</Line>
-        <Line Name="USBIM1C" Pattern="Dashed">USBIM/EMEXO/GL522/GL523/GL524/DATSO</Line>
-        <Line Name="LIPEP1C" Pattern="Dashed">LIPEP/GL520/VISDA/GL522</Line>
-        <Line Name="LONVA1C" Pattern="Dashed">LONVA/ERDAN/GL501/GL502/DULNO</Line>
-        <Line Name="LIVRI1C" Pattern="Dashed">LIVRI/IKBAN/ULOGA/GL512/GL513/GL514/DULNO</Line>
-        <Line Name="MODEX1A" Pattern="Dashed">
-            MODEX/GL540/ULOGA
-        </Line>
+    <Map Type="System" Name="Pistas 11 - Llegadas RNAV" Priority="1" Center="+203124.320-1031841.798">
+        <Line Name="IGSON1A" Pattern="Dashed">IGSON/ULUVO/GL530/GL531/BRUJA/GL560/GL561/GL562/GL563/GL564/GL565/OLAVA</Line>
+        <Line Name="USBIM1C" Pattern="Dashed">USBIM/GL571/GL560</Line>
+        <Line Name="VOLAT1A" Pattern="Dashed">VOLAT/GL572/GL575/GL562</Line>
+        <Line Name="KASUP1A" Pattern="Dashed">KASUP/LIPEP/GL572/GL575/GL562</Line>
+        <Line Name="AMULA1A" Pattern="Dashed">AMULA/LONVA/GL573/GL550/GL551/GL552/GL553/GL554/GL555/OLAVA</Line>
+        <Line Name="MEZCA1A" Pattern="Dashed">MEZCA/LIVRI/IKBAN/ULOGA/GL513/GL550</Line>
+        <Line Name="MEZCA1A" Pattern="Dashed">MUTEM/GL540/ULOGA</Line>
         <Symbol Type="HollowStar">
+            <Point>AMULA</Point>
             <Point>BRUJA</Point>
-            <Point>DATSO</Point>
-            <Point>DULNO</Point>
-            <Point>EMEXO</Point>
-            <Point>ERDAN</Point>
-            <Point>GL501</Point>
-            <Point>GL502</Point>
-            <Point>GL512</Point>
             <Point>GL513</Point>
-            <Point>GL514</Point>
-            <Point>GL520</Point>
-            <Point>GL522</Point>
-            <Point>GL523</Point>
-            <Point>GL524</Point>
-            <Point>GL530</Point>
+            <Point>GL530</Point>			
             <Point>GL531</Point>
-            <Point>GL532</Point>
-            <Point>GL534</Point>
-            <Point>GL535</Point>
-            <Point>GL540</Point>
+            <Point>GL540</Point>            
+            <Point>GL550</Point>
+            <Point>GL551</Point>
+            <Point>GL552</Point>
+            <Point>GL553</Point>
+            <Point>GL554</Point>			
+            <Point>GL555</Point>			
+            <Point>GL560</Point>
+            <Point>GL561</Point>
+            <Point>GL562</Point>
+            <Point>GL563</Point>
+            <Point>GL564</Point>
+            <Point>GL565</Point>
+            <Point>OLAVA</Point>
+            <Point>GL571</Point>
+            <Point>GL572</Point>
+            <Point>GL573</Point>
+            <Point>GL575</Point>
+            <Point>IGSON</Point>
             <Point>IKBAN</Point>
             <Point>LIPEP</Point>
+            <Point>KASUP</Point>
             <Point>LIVRI</Point>
             <Point>LONVA</Point>
-            <Point>MODEX</Point>
+            <Point>MEZCA</Point>
+            <Point>MUTEM</Point>
             <Point>ULOGA</Point>
             <Point>ULUVO</Point>
             <Point>USBIM</Point>
-            <Point>VISDA</Point>
+            <Point>VOLAT</Point>
         </Symbol>
     </Map>
-    <Map Type="System" Name="Pista 11 - Llegadas RNAV (Nombres)" Priority="1" Center="+203124.320-1031841.798">
+    <Map Type="System" Name="Pistas 11 - Llegadas RNAV (Nombres)" Priority="1" Center="+203124.320-1031841.798">
         <Label HasLeader="false">
-            <Point>DATSO</Point>
-            <Point>DULNO</Point>
-            <Point>LIPEP</Point>
-            <Point>LIVRI</Point>
-            <Point>LONVA</Point>
-            <Point>MODEX</Point>
-            <Point>ULUVO</Point>
+            <Point>AMULA</Point>
+            <Point>IGSON</Point>
+            <Point>KASUP</Point>
+            <Point>MEZCA</Point>
+            <Point>MUTEM</Point>
             <Point>USBIM</Point>
+            <Point>VOLAT</Point>
         </Label>
     </Map>
-    <Map Type="System" Name="Pista 11 - Llegadas RNAV (Vectores)" Priority="1" Center="+203124.320-1031841.798">
+
+<!--En revision
+
+    <Map Type="System" Name="Pista 11L/R - Llegadas RNAV (Vectores)" Priority="1" Center="+203124.320-1031841.798">
         <Line Name="DULNOR338">+210625.847-1033928.910/+204226.875-1033206.377</Line>
         <Line Name="DULNOR058">+205322.543-1030810.696/+204226.875-1033206.377</Line>
         <Line Name="DULNOD25">
@@ -219,9 +226,10 @@
 +203047.116-1034105.719/
 +203105.782-1034115.760</Line>
     </Map>
-    <Map Type="System" Name="Pista 11 - ILS Z 11" Priority="1" Center="+203124.320-1031841.798">
+-->
+    <Map Type="System" Name="Pistas 11 - ILS X 11R" Priority="1" Center="+203124.320-1031841.798">
         <Line Pattern="Solid">DATSO/DULNO</Line>
-        <Line Pattern="Solid">GL620/GL621/GL622/GL623/GDL</Line>
+        <Line Pattern="Solid">OLAVA/GL620/GL621/GL622/GL623/+203143.600-1031933.600</Line>
         <Line Name="D1" Pattern="Solid">+203404.335-1033545.061/+203418.957-1033620.139</Line>
         <Line Name="D2" Pattern="Solid">+203459.072-1033519.028/+203513.694-1033554.109</Line>
         <Line Name="D3" Pattern="Solid">+203553.809-1033452.994/+203608.431-1033528.079</Line>
@@ -250,32 +258,31 @@
         <Symbol Type="HollowStar">
             <Point>DATSO</Point>
             <Point>DULNO</Point>
+            <Point>OLAVA</Point>
             <Point>GL620</Point>
             <Point>GL621</Point>
             <Point>GL622</Point>
             <Point>GL623</Point>
         </Symbol>
     </Map>
-    <Map Type="System" Name="Pista 11 - Salidas RNAV" Priority="1" Center="+203124.320-1031841.798">
-        <Line Name="OTOKI1A" Pattern="Dotted">GDL/GL406/GL405/GL410/GL411/OTOKI</Line>
-        <Line Name="FEISE1A" Pattern="Dotted">GL410/FEISE</Line>
+    <Map Type="System" Name="Pistas 11 - Salidas RNAV" Priority="1" Center="+203124.320-1031841.798">
+        <Line Name="OTOKI1A" Pattern="Dotted">GDL/GL405/GL410/GL411/OTOKI</Line>
+        <Line Name="FEISE1A" Pattern="Dotted">GL410/GL415/FEISE</Line>
         <Line Name="KELVA1A" Pattern="Dotted">GL405/KELVA</Line>
         <Line Name="LONKU1D" Pattern="Dotted">GL405/LONKU</Line>
         <Line Name="EMIRI1A" Pattern="Dotted">GL405/GL430/ATOXO/EMIRI</Line>
-        <Line Name="NOTUP1B" Pattern="Dotted">GL406/GL420/GL421/GL422/NOTUP</Line>
-        <Line Name="SEDEM1A" Pattern="Dotted">GL422/SEDEM</Line>
+        <Line Name="NOTUP1D" Pattern="Dotted">GL405/GL410/GL440/NOTUP</Line>
+        <Line Name="SEDEM1A" Pattern="Dotted">GL440/SEDEM</Line>
         <Symbol Type="HollowStar">
             <Point>ATOXO</Point>
             <Point>EMIRI</Point>
             <Point>FEISE</Point>
             <Point>GL405</Point>
-            <Point>GL406</Point>
             <Point>GL410</Point>
             <Point>GL411</Point>
-            <Point>GL420</Point>
-            <Point>GL421</Point>
-            <Point>GL422</Point>
+            <Point>GL415</Point>
             <Point>GL430</Point>
+            <Point>GL440</Point>
             <Point>KELVA</Point>
             <Point>LONKU</Point>
             <Point>NOTUP</Point>
@@ -283,7 +290,7 @@
             <Point>SEDEM</Point>
         </Symbol>
     </Map>
-    <Map Type="System" Name="Pista 11 - Salidas RNAV (Nombres)" Priority="1" Center="+203124.320-1031841.798">
+    <Map Type="System" Name="Pistas 11 - Salidas RNAV (Nombres)" Priority="1" Center="+203124.320-1031841.798">
         <Label HasLeader="false">
             <Point>EMIRI</Point>
             <Point>FEISE</Point>
