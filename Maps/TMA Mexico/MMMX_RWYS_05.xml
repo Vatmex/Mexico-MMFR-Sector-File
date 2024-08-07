@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
     <Map Type="System" Name="MMMX - Pistas 05 - Llegadas RNAV" Priority="1" Center="+192617.580-0990407.680">
-        <Line Name="DARAN1A" Pattern="Dashed">DARAN/MX750/MX752/MX754/MX756/ALMIS/MX717/SUTAS</Line>
-        <Line Name="ENAGA1A" Pattern="Dashed">ENAGA/MX751/MX753/MX755/MX757/MX759/ALMIS</Line>
-        <Line Name="LARLO1A" Pattern="Dashed">LARLO/MX771/MX773/MX775/MX777/URNOK/MX741/VOLUN</Line>
-        <Line Name="ESPOS1" Pattern="Dashed">ESPOS/MX770/MX772/MX774/MX776/URNOK</Line>
+        <Line Name="DARAN3A" Pattern="Dashed">DARAN/MX750/MX752/MX754/MX756/ALMIS/UKTEN</Line>
+        <Line Name="ENAGA3A" Pattern="Dashed">ENAGA/MX751/MX753/MX755/MX757/MX759/ALMIS</Line>
+        <Line Name="LARLO4A" Pattern="Dashed">LARLO/MX771/MX773/MX775/MX777/URNOK/EPRIM</Line>
+        <Line Name="ESPOS3A" Pattern="Dashed">ESPOS/MX770/MX772/MX774/MX776/URNOK</Line>
         <Symbol Type="HollowStar">      
             <Point>ALMIS</Point>
             <Point>DARAN</Point>
             <Point>ENAGA</Point>
             <Point>ESPOS</Point>
             <Point>LARLO</Point>
-            <Point>MX717</Point>
-            <Point>MX741</Point>
+            <Point>UKTEN</Point>
+            <Point>EPRIM</Point>
             <Point>MX750</Point>
             <Point>MX751</Point>
             <Point>MX752</Point>
@@ -39,12 +39,14 @@
         <Label HasLeader="false">
             <Point>ALMIS</Point>
             <Point>DARAN</Point>
+			<Point>EPRIM</Point>
             <Point>ENAGA</Point>
             <Point>ESPOS</Point>
             <Point>LARLO</Point>
-            <Point>SUTAS</Point>
+
+			<Point>UKTEN</Point>
             <Point>URNOK</Point>
-            <Point>VOLUN</Point>
+
         </Label>
     </Map>
     <Map Type="System" Name="MMMX - Pistas 05 - Llegadas RNAV (Vectores)" Priority="1" Center="+192617.580-0990407.680">
@@ -352,8 +354,8 @@
 +192354.567-0990924.516</Line>
     </Map>
     <Map Type="System" Name="MMMX - Pistas 05 - ILS Z 05R" Priority="1" Center="+192617.580-0990407.680">
-        <Line Pattern="Solid">SUTAS/MX901</Line>
-        <Line Pattern="Solid">VOLUN/MX901</Line>
+        <Line Pattern="Solid">UKTEN/SUTAS/MX901</Line>
+        <Line Pattern="Solid">EPRIM/VOLUN/MX901</Line>
         <Line Pattern="Solid">+192545.10-0990455.100/MX901</Line>
         <Line Pattern="Solid">+192436.403-0991519.768/+192504.531-0991423.678</Line>
         <Line Pattern="Solid">+192343.501-0991449.940/+192411.629-0991353.855</Line>

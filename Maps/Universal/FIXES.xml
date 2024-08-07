@@ -1075,12 +1075,12 @@
             <Point>TAM</Point>
             <Point>TAP</Point>
             <Point>TEQ</Point>
-            <Point>TGM</Point>
             <Point>TGZ</Point>
             <Point>TIJ</Point>
             <Point>TLC</Point>
             <Point>TMN</Point>
             <Point>TNY</Point>
+			<Point>TQO</Point>
             <Point>TRC</Point>
             <Point>TTM</Point>
             <Point>UPN</Point>
@@ -1186,12 +1186,12 @@
             <Point>TAM</Point>
             <Point>TAP</Point>
             <Point>TEQ</Point>
-            <Point>TGM</Point>
             <Point>TGZ</Point>
             <Point>TIJ</Point>
             <Point>TLC</Point>
             <Point>TMN</Point>
             <Point>TNY</Point>
+			<Point>TQO</Point>
             <Point>TRC</Point>
             <Point>TTM</Point>
             <Point>UPN</Point>
@@ -1299,13 +1299,13 @@
             <Point>TAM</Point>
             <Point>TAP</Point>
             <Point>TEQ</Point>
-            <Point>TGM</Point>
             <Point>TGZ</Point>
             <Point>TIJ</Point>
             <Point>TLC</Point>
             <Point>TMN</Point>
             <Point>TNY</Point>
             <Point>TRC</Point>
+			<Point>TQO</Point>
             <Point>TTM</Point>
             <Point>UPN</Point>
             <Point>VER</Point>
