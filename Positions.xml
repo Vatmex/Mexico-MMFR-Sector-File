@@ -4536,7 +4536,7 @@
         </Position>
 
         <!-- TMA Juarez -->
-        <Position Name="Torre Juarez - CSTW1" Type="ASD" DefaultCenter="+313810.896-1062543.544" DefaultRange="20" MagneticVariation="-10" VisibilityRange="100">
+        <Position Name="Torre Juarez - CSTW1" Type="ASD" DefaultCenter="+313810.896-1062543.544" DefaultRange="35" MagneticVariation="-10" VisibilityRange="100">
             <Sectors>
                 <Sector Name="CSTW1" />
             </Sectors>
