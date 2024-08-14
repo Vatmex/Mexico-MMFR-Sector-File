@@ -1528,7 +1528,7 @@
         <Airport Name="MMTO">
             <Runway Name="15" DataRunway="15">
                 <SID Name="OMPE3A" />
-                <SID Name="OVAG2C" />
+                <SID Name="OVAG3C" />
                 <SID Name="PURA3A" />
                 <SID Name="SEBO3C" />
                 <SID Name="TEVO2C" />
@@ -9459,7 +9459,7 @@
         <SID Name="ULEB3C" Airport="MMTO" Runways="15">
             <Route Runway="15">TO705 TO712 SERNU TO756 ULEBA</Route>
         </SID>
-        <SID Name="OVAG2C" Airport="MMTO" Runways="15">
+        <SID Name="OVAG3C" Airport="MMTO" Runways="15">
             <Route Runway="15">TO705 TO712 SERNU TO754 OVAGO</Route>
         </SID>
         <SID Name="SEBO3C" Airport="MMTO" Runways="15">
