@@ -379,6 +379,8 @@
             <Point>MX901</Point>
             <Point>SUTAS</Point>
             <Point>VOLUN</Point>
+            <Point>UKTEN</Point>
+            <Point>EPRIM</Point>
         </Symbol>
     </Map>
     <Map Type="System" Name="MMMX - Pistas 05 - Salidas RNAV" Priority="1" Center="+192617.580-0990407.680">
