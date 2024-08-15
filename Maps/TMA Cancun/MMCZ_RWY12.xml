@@ -6,7 +6,7 @@
         <Line Name="ILUBA1C" Pattern="Dashed">ILUBA/MARJE/CZ514/BEREB/CZ506/ONGAV</Line>
         <Line Name="SIGMA1C" Pattern="Dashed">SIGMA/EBKUG/CZ907/BEREB</Line>
         <Line Name="PAULE2E" Pattern="Dashed">PAULE/CZ925/CZ501/ONGAV</Line>
-        <Line Name="ULIPA1C" Pattern="Dashed">ULIPA/CZ501</Line>
+        <Line Name="TQO1C" Pattern="Dashed">TQO/CZ501</Line>
         <Symbol Type="SolidTriangle">
             <Point>EMOSA</Point>
             <Point>ILUBA</Point>
@@ -28,7 +28,6 @@
             <Point>MARJE</Point>
             <Point>ONGAV</Point>
             <Point>UKVAS</Point>
-            <Point>ULIPA</Point>
             <Point>XUBLI</Point>
         </Symbol>
         <Symbol Type="HollowSquare">
@@ -36,6 +35,12 @@
         </Symbol>
         <Symbol Type="Circle">
             <Point>CUN</Point>
+        </Symbol>
+        <Symbol Type="HollowSquare">
+            <Point>TQO</Point>
+        </Symbol>
+        <Symbol Type="Circle">
+            <Point>TQO</Point>
         </Symbol>
     </Map>
     <Map Type="System" Name="MMCZ - Pista 12 - Llegadas RNAV (Nombres)" Priority="2" Center="-34.945000+138.530556">
@@ -45,12 +50,13 @@
             <Point>ONGAV</Point>
             <Point>PAULE</Point>
             <Point>SIGMA</Point>
-            <Point>ULIPA</Point>
+            <Point>TQO</Point>
             <Point>VIBLA</Point>
             <Point>VIGTU</Point>
             <Point>XUBLI</Point>
         </Label>
     </Map>
+<!--
     <Map Type="System" Name="MMCZ - Pista 12 - VORDME 2" Priority="1" Center="+203119.430-0865545.400">
         <Line Name="Final 12" Pattern="Solid">
 +203109.529-0865617.574/
@@ -268,7 +274,7 @@ VOBED</Line>
             <Point>CZM</Point>
         </Symbol>    
     </Map>
-    <Map Type="System" Name="MMCZ - Pista 12 - VORDME 2 (Nombres)" Priority="2" Center="+203119.430-0865545.400">
+   <Map Type="System" Name="MMCZ - Pista 12 - VORDME 2 (Nombres)" Priority="2" Center="+203119.430-0865545.400">
         <Label HasLeader="false">
             <Point>CZM</Point>
             <Point>DAXUM</Point>
@@ -280,6 +286,7 @@ VOBED</Line>
             <Point>VOBED</Point>
         </Label>
     </Map>
+-->
     <Map Type="System" Name="MMCZ - Pista 12 - RNP 12" Priority="1" Center="+203119.430-0865545.400">
         <Line Name="LAT" Pattern="Solid">ONGAV/VIBLA</Line>
         <Line Name="FINAL" Pattern="Solid">XUBLI/+203109.529-0865617.574</Line>
@@ -291,6 +298,7 @@ VOBED</Line>
             <Point>CZ519</Point>
         </Symbol>
     </Map>
+<!--
     <Map Type="System" Name="MMCZ - Pista 12 - Salidas" Priority="1" Center="+203119.430-0865545.400">
         <Line Name="CZM7A" Pattern="Dotted">
 +203034.399-0865459.915/
@@ -554,7 +562,7 @@ OTEDI</Line>
             <Point>OBTAM</Point>
             <Point>OTEDI</Point>
         </Label>
-    </Map>
+    </Map>-->
     <Map Type="System" Name="MMCZ - Pista 12 - Salidas RNAV" Priority="1" Center="+203119.430-0865545.400">
         <Line Name="NOSUG2C" Pattern="Dotted">+203034.400-0865459.918/+203030.267-0865450.899/CZ430/XULDA/NOSUG</Line>
         <Line Name="ROTGI2C" Pattern="Dotted">XULDA/ROTGI</Line>
@@ -562,12 +570,11 @@ OTEDI</Line>
         <Line Name="AVSEB2B" Pattern="Dotted">+203030.267-0865450.899/AVSEB</Line>
         <Line Name="SIGMA2A" Pattern="Dotted">+203030.267-0865450.899/ATHLO/KINON/SIGMA</Line>
         <Line Name="ALSUP1J" Pattern="Dotted">ATHLO/OBTAM/CZ901/ALSUP</Line>
-        <Line Name="ULIPA1A" Pattern="Dotted">ATHLO/CZ402/CZ411/CZ922/ULIPA</Line>
+        <Line Name="TQO1A" Pattern="Dotted">ATHLO/CZ402/CZ411/CZ922/TQO</Line>
         <Line Name="KASIV1A" Pattern="Dotted">CZ411/CZ435/KASIV</Line>
         <Symbol Type="SolidTriangle">
             <Point>ALSUP</Point>
             <Point>NUDAL</Point>
-            <Point>NUKAN</Point>
             <Point>OBTAM</Point>
             <Point>SIGMA</Point>
         </Symbol>
@@ -585,8 +592,13 @@ OTEDI</Line>
             <Point>NOSUG</Point>
             <Point>NOXEK</Point>
             <Point>ROTGI</Point>
-            <Point>ULIPA</Point>
             <Point>XULDA</Point>
+        </Symbol>
+        <Symbol Type="HollowSquare">
+            <Point>TQO</Point>
+        </Symbol>
+        <Symbol Type="Circle">
+            <Point>TQO</Point>
         </Symbol>
     </Map>
     <Map Type="System" Name="MMCZ - Pista 12 - Salidas RNAV (Nombres)" Priority="2" Center="-34.945000+138.530556">
@@ -598,7 +610,7 @@ OTEDI</Line>
             <Point>NUDAL</Point>
             <Point>ROTGI</Point>
             <Point>SIGMA</Point>
-            <Point>ULIPA</Point>
+            <Point>TQO</Point>
         </Label>
     </Map>
 </Maps>
