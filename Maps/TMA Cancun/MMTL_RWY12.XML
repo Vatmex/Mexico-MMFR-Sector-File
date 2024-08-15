@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
     <Map Type="System" Name="MMTL - Pista 12 - Llegadas RNAV" Priority="1" Center="+203119.430-0865545.400">
-        <Line Name="VIVUS1A" Pattern="Dashed">VIVUS/IRGIL/OTUSO</Line>
-        <Line Name="VIGTU1C" Pattern="Dashed">VIGTU/TL515/TL513/TL511/TL510/OTUSO</Line>
-        <Line Name="EMOSA1C" Pattern="Dashed">EMOSA/TL522/CUN/TL518/TL516/TL514/TL512/TL511</Line>
-        <Line Name="ILUBA1K" Pattern="Dashed">ILUBA/TL520/CUN</Line>
-        <Line Name="ANIKO1A" Pattern="Dashed">ANIKO/MURBU/AGLOM/TL531/TL530/AMAMO</Line>
         <Line Name="ANADI1A" Pattern="Dashed">ANADI/AGLOM/TL531</Line>
+		<Line Name="ANIKO1A" Pattern="Dashed">ANIKO/MURBU/AGLOM/TL531/TL530/AMAMO</Line>
+		<Line Name="EMOSA1C" Pattern="Dashed">EMOSA/TL522/CUN/TL518/TL516/TL514/TL512/TL511</Line>
+		<Line Name="ILUBA1K" Pattern="Dashed">ILUBA/TL520/CUN</Line>
+		<Line Name="IMUBI1A" Pattern="Dashed">IMUBI/IRGIL/OTUSO</Line>
+        <Line Name="VIGTU1C" Pattern="Dashed">VIGTU/TL515/TL513/TL511/TL510/OTUSO</Line>
         <Symbol Type="HollowStar">
             <Point>AGLOM</Point>
             <Point>AMAMO</Point>
@@ -14,7 +14,8 @@
             <Point>ANIKO</Point>
             <Point>EMOSA</Point>
             <Point>ILUBA</Point>
-            <Point>IRGIL</Point>
+            <Point>IMUBI</Point>            
+			<Point>IRGIL</Point>
             <Point>MURBU</Point>
             <Point>OTUSO</Point>
             <Point>TL510</Point>
@@ -30,7 +31,6 @@
             <Point>TL530</Point>
             <Point>TL531</Point>
             <Point>VIGTU</Point>
-            <Point>VIVUS</Point>
         </Symbol>
         <Symbol Type="HollowSquare">
             <Point>CUN</Point>
@@ -46,9 +46,9 @@
             <Point>ANIKO</Point>
             <Point>EMOSA</Point>
             <Point>ILUBA</Point>
+            <Point>IMUBI</Point>
             <Point>OTUSO</Point>
             <Point>VIGTU</Point>
-            <Point>VIVUS</Point>
         </Label>
     </Map>
     <Map Type="System" Name="MMTL - Pista 12 - RNP 12" Priority="1" Center="+203119.430-0865545.400">
