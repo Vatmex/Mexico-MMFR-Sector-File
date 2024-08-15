@@ -53,7 +53,7 @@
     <Map Type="System" Name="MMSM - Pistas 22 - Llegadas RNAV (Vectores)" Priority="1" Center="+194440.70-0990053.200">
         <!--Pendiente-->
     </Map>
-    <Map Type="System" Name="MMSM - Pistas 22 - ILS 22C" Priority="1" Center="+194440.700-0990053.200">
+    <Map Type="System" Name="MMSM - Pistas 22 - ILS Z 22C" Priority="1" Center="+194440.700-0990053.200">
         <Line Pattern="Solid">EMOXI/SM42N/SM43N/+194518.460-0985926.270</Line>
         <Line Pattern="Solid">DUNIS/SM42N</Line>
         <!--Lineas de distancia 5NM pendientes-->
@@ -64,7 +64,7 @@
             <Point>SM43N</Point>      
         </Symbol>
     </Map>
-    <Map Type="System" Name="MMSM - Pistas 22 - ILS 22R" Priority="1" Center="+194440.700-0990053.200">
+    <Map Type="System" Name="MMSM - Pistas 22 - ILS Z 22R" Priority="1" Center="+194440.700-0990053.200">
         <Line Pattern="Solid">EMOXI/SM32N/SM33N/+194538.340-0990026.010</Line>
         <Line Pattern="Solid">DUNIS/SM32N</Line>
         <!--Lineas de distancia 5NM pendientes-->
