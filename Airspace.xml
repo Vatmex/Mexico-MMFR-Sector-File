@@ -340,12 +340,12 @@
                 <SID Name="OTED2A" />
                 <SID Name="ROTG2C" />
                 <SID Name="SIGM2A" />
-                <SID Name="ULIP1A" />
+                <SID Name="TQO1A" />
                 <STAR Name="EMOS1A" ApproachName="RNP12.VIBLA" />
                 <STAR Name="ILUB1C" ApproachName="RNP12.ONGAV" />
                 <STAR Name="PAUL2E" ApproachName="RNP12.ONGAV" />
                 <STAR Name="SIGM2C" ApproachName="RNP12.ONGAV" />
-                <STAR Name="ULIP1C" ApproachName="RNP12.ONGAV" />
+                <STAR Name="TQO1C" ApproachName="RNP12.ONGAV" />
                 <STAR Name="VIGT1A" ApproachName="RNP12.XUBLI" />
             </Runway>
             <Runway Name="30" DataRunway="30">
@@ -356,6 +356,7 @@
                 <SID Name="DUPIX2" />
                 <SID Name="ITPI2B" />
                 <SID Name="KASI1B" />
+                <SID Name="KATR1A" />
                 <SID Name="LIDE2E" />
                 <SID Name="NOSU2D" />
                 <SID Name="NUDA2D" />
@@ -363,13 +364,14 @@
                 <SID Name="OTED2B" />
                 <SID Name="ROTG2D" />
                 <SID Name="SIGM2B" />
-                <SID Name="ULIP1B" />
+                <SID Name="SUVE1A" />
+                <SID Name="TQO1B" />
                 <SID Name="VOBE2E" />
                 <STAR Name="EMOS1B" ApproachName="RNP30.BEREB" />
                 <STAR Name="ILUB1D" ApproachName="RNP30.EMPAM" />
                 <STAR Name="PAUL2F" ApproachName="RNP30.BEREB" />
                 <STAR Name="SIGM2D" ApproachName="RNP30.BEREB" />
-                <STAR Name="ULIP1D" ApproachName="RNP30.BEREB" />
+                <STAR Name="TQO1D" ApproachName="RNP30.BEREB" />
                 <STAR Name="VIGT2B" ApproachName="RNP30.BEREB" />
             </Runway>
         </Airport>
@@ -4335,6 +4337,7 @@
         <Point Name="CZ704" Type="Fix">+201753.200-0861514.800</Point>
         <Point Name="CZ705" Type="Fix">+202613.500-0864523.900</Point>
         <Point Name="CZ706" Type="Fix">+202824.000-0865011.900</Point>
+        <Point Name="CZ730" Type="Fix">+201417.400-0872839.200</Point>
         <Point Name="CZ901" Type="Fix">+194917.700-0865430.200</Point>
         <Point Name="CZ907" Type="Fix">+200823.800-0863954.500</Point>
         <Point Name="CZ910" Type="Fix">+202650.800-0873411.700</Point>
@@ -6565,7 +6568,7 @@
         </SID>
         <!--MMCZ-->
         <SID Name="CZM7C" Airport="MMCZ" Runways="12">
-            <Route Runway="12">CVM</Route>
+            <Route Runway="12">CZM</Route>
         </SID>
         <SID Name="CZM7D" Airport="MMCZ" Runways="30">
             <Route Runway="30">CZM</Route>
@@ -6612,6 +6615,9 @@
         <SID Name="KASI1B" Airport="MMCZ" Runways="30">
             <Route Runway="30">CZ411 CZ910 CZ916 KASIV</Route>
         </SID>
+        <SID Name="KATR1A" Airport="MMCZ" Runways="30">
+            <Route Runway="30">KATRO</Route>
+        </SID>
         <SID Name="LIDE2E" Airport="MMCZ" Runways="30">
             <Route Runway="30">LIDEK</Route>
         </SID>
@@ -6651,11 +6657,14 @@
         <SID Name="SIGM2B" Airport="MMCZ" Runways="30">
             <Route Runway="30">CZ604 IRDUS ILEKO OBTAM CZ911 CZ912 ALROM SIGMA</Route>
         </SID>
-        <SID Name="ULIP1A" Airport="MMCZ" Runways="12">
-            <Route Runway="12">ATHLO CZ402 CZ411 CZ922 ULIPA</Route>
+        <SID Name="SUVE1A" Airport="MMCZ" Runways="30">
+            <Route Runway="30">SUVES</Route>
         </SID>
-        <SID Name="ULIP1B" Airport="MMCZ" Runways="30">
-            <Route Runway="30">CZ411 ULIPA</Route>
+        <SID Name="TQO1A" Airport="MMCZ" Runways="12">
+            <Route Runway="12">ATHLO CZ402 CZ411 CZ922 TQO</Route>
+        </SID>
+        <SID Name="TQO1B" Airport="MMCZ" Runways="30">
+            <Route Runway="30">CZ411 TQO</Route>
         </SID>
         <SID Name="VOBE2E" Airport="MMCZ" Runways="30">
             <Route Runway="30">VOBED</Route>
@@ -6684,11 +6693,11 @@
         <STAR Name="SIGM2D" Airport="MMCZ" Runways="30">
             <Route Runway="30">SIGMA EBKUG CZ914 BEREB</Route>
         </STAR>
-        <STAR Name="ULIP1C" Airport="MMCZ" Runways="12">
-            <Route Runway="12">ULIPA CZ501 ONGAV</Route>
+        <STAR Name="TQO1C" Airport="MMCZ" Runways="12">
+            <Route Runway="12">TQO CZ501 ONGAV</Route>
         </STAR>
-        <STAR Name="ULIP1D" Airport="MMCZ" Runways="30">
-            <Route Runway="30">ULIPA CZ920 CZ501 ONGAV CZ702 BEREB</Route>
+        <STAR Name="TQO1D" Airport="MMCZ" Runways="30">
+            <Route Runway="30">TQO CZ730 CZ501 ONGAV CZ702 BEREB</Route>
         </STAR>
         <STAR Name="VIGT1A" Airport="MMCZ" Runways="12">
             <Route Runway="12">VIGTU CZ518 CZ505 XUBLI</Route>
