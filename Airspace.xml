@@ -1501,7 +1501,7 @@
                 <STAR Name="EMOS1C" ApproachName="RNP12.OTUSO" />
                 <STAR Name="ILUB1K" ApproachName="RNP12.OTUSO" />
                 <STAR Name="VIGT1C" ApproachName="RNP12.OTUSO" />
-                <STAR Name="VIVU1A" ApproachName="RNP12.OTUSO" />
+                <STAR Name="IMUB1A" ApproachName="RNP12.OTUSO" />
             </Runway>
             <Runway Name="30" DataRunway="30">
                 <SID Name="ALSU1B" />
@@ -1516,7 +1516,7 @@
                 <STAR Name="EMOS1D" ApproachName="RNP30.ESKIE" />
                 <STAR Name="ILUB1L" ApproachName="RNP30.ESKIE" />
                 <STAR Name="VIGT1D" ApproachName="RNP30.ESKIE" />
-                <STAR Name="VIVU1B" ApproachName="RNP30.ESKIE" />
+                <STAR Name="IMUB1B" ApproachName="RNP30.ESKIE" />
             </Runway>
         </Airport>
         <Airport Name="MMTN">
@@ -3345,7 +3345,7 @@
         <Point Name="IMOLI" Type="Fix">+232405.000-1041007.000</Point>
         <Point Name="IMOLO" Type="Fix">+211000.000-0860746.000</Point>
         <Point Name="IMOSO" Type="Fix">+220433.000-1025429.000</Point>
-        <Point Name="IMUBI" Type="Fix">+200259.000-0883852.000</Point>
+        <Point Name="IMUBI" Type="Fix">+200259.200-0883852.100</Point>
         <Point Name="IMUSU" Type="Fix">+271942.000-1121613.000</Point>
         <Point Name="INDIO" Type="Fix">+252458.000-1083609.000</Point>
         <Point Name="IPRUL" Type="Fix">+243132.000-0972040.000</Point>
@@ -9282,7 +9282,7 @@
             <Route>ULDUD TJ557 TL560 TJ410 TJ408 TJ407 TJ406 TJ405</Route>
         </Approach>
         <!-- *********** MMEP *********** -->
-        <!-- MMTL-SID-1 -->
+        <!-- MMTM-SID-1 -->
         <SID Name="ONBU1A" Airport="MMTM" Runways="14">
             <Route Runway="14">ONBUL</Route>
         </SID>
@@ -9295,7 +9295,7 @@
         <SID Name="TAM1A" Airport="MMTM" Runways="14">
             <Route Runway="14">TAM</Route>
         </SID>
-        <!-- MMTL-SID-2 -->
+        <!-- MMTM-SID-2 -->
         <SID Name="IPTU1B" Airport="MMTM" Runways="32">
             <Route Runway="32">IPTUN</Route>
         </SID>
@@ -9323,7 +9323,7 @@
         <SID Name="TAM1C" Airport="MMTM" Runways="32">
             <Route Runway="32">TAM</Route>
         </SID>
-        <!-- MMTL-SID-3 -->
+        <!-- MMTM-SID-3 -->
         <SID Name="TAKL1B" Airport="MMTM" Runways="01">
             <Route Runway="01">TAKLA</Route>
         </SID>
@@ -9348,7 +9348,7 @@
         <SID Name="TAM1D" Airport="MMTM" Runways="01">
             <Route Runway="01">TAM</Route>
         </SID>
-        <!-- MMTL-SID-4 -->
+        <!-- MMTM-SID-4 -->
         <SID Name="ONBU1B" Airport="MMTM" Runways="19">
             <Route Runway="19">ONBUL</Route>
         </SID>
@@ -9416,8 +9416,8 @@
             <Route Runway="30">TL602 TL604 TL606 TL610 LIDEK XULDA NUDAL</Route>
         </SID>
         <!-- MMTL-STAR-1 -->
-        <STAR Name="VIVU1A" Airport="MMTL" Runways="12">
-            <Route Runway="12">VIVUS IRGIL OTUSO</Route>
+        <STAR Name="IMUB1A" Airport="MMTL" Runways="12">
+            <Route Runway="12">IMUBI IRGIL OTUSO</Route>
         </STAR>
         <STAR Name="VIGT1C" Airport="MMTL" Runways="12">
             <Route Runway="12">VIGTU TL515 TL513 TL511 TL510 OTUSO</Route>
@@ -9435,8 +9435,8 @@
             <Route Runway="12">ANADI AGLOM TL531 TL530 AMAMO</Route>
         </STAR>
         <!-- MMTL-STAR-2 -->
-        <STAR Name="VIVU1B" Airport="MMTL" Runways="30">
-            <Route Runway="30">VIVUS IRGIL OTUSO USBON ESKIE</Route>
+        <STAR Name="IMUB1B" Airport="MMTL" Runways="30">
+            <Route Runway="30">IMUBI IRGIL OTUSO USBON ESKIE</Route>
         </STAR>
         <STAR Name="VIGT1D" Airport="MMTL" Runways="30">
             <Route Runway="30">VIGTU TL514 TL512 USBON ESKIE</Route>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
     <Map Type="System" Name="MMTL - Pista 30 - Llegadas RNAV" Priority="1" Center="+203119.430-0865545.400">
-        <Line Name="VIVUS1B" Pattern="Dashed">VIVUS/IRGIL/OTUSO/USBON/ESKIE</Line>
-        <Line Name="VIGTU1D" Pattern="Dashed">VIGTU/TL514/TL512/USBON</Line>
-        <Line Name="EMOSA1D" Pattern="Dashed">EMOSA/TL522/CUN/TL518/TL516/TL514/TL512/USBON</Line>
-        <Line Name="ILUBA1L" Pattern="Dashed">ILUBA/TL520/CUN</Line>
+        <Line Name="ANADI1B" Pattern="Dashed">ANADI/AGLOM</Line>
         <Line Name="ANIKO1B" Pattern="Dashed">ANIKO/MURBU/AGLOM/TL532/OTREL</Line>
-        <Line Name="ANADI1B" Pattern="Dashed">ANADI/AGLOM/TL532</Line>
+        <Line Name="EMOSA1D" Pattern="Dashed">EMOSA/TL522/CUN/TL518/TL516/TL514</Line>
+        <Line Name="ILUBA1L" Pattern="Dashed">ILUBA/TL520/CUN</Line>
+        <Line Name="IMUBI1B" Pattern="Dashed">IMUBI/IRGIL/OTUSO/USBON/ESKIE</Line>
+        <Line Name="VIGTU1D" Pattern="Dashed">VIGTU/TL514/TL512/USBON</Line>
         <Symbol Type="HollowStar">
             <Point>AGLOM</Point>
             <Point>ANADI</Point>
@@ -14,6 +14,7 @@
             <Point>EMOSA</Point>
             <Point>ESKIE</Point>
             <Point>ILUBA</Point>
+            <Point>IMUBI</Point>
             <Point>IRGIL</Point>
             <Point>MURBU</Point>
             <Point>OTREL</Point>
@@ -27,7 +28,6 @@
             <Point>TL532</Point>
             <Point>USBON</Point>
             <Point>VIGTU</Point>
-            <Point>VIVUS</Point>
         </Symbol>
         <Symbol Type="HollowSquare">
             <Point>CUN</Point>
@@ -43,9 +43,9 @@
             <Point>EMOSA</Point>
             <Point>ESKIE</Point>
             <Point>ILUBA</Point>
+            <Point>IMUBI</Point>
             <Point>OTREL</Point>
             <Point>VIGTU</Point>
-            <Point>VIVUS</Point>
         </Label>
     </Map>
     <Map Type="System" Name="MMTL - Pista 30 - RNP 30" Priority="1" Center="+203119.430-0865545.400">
