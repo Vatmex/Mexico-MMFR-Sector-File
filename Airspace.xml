@@ -1314,11 +1314,11 @@
                 <SID Name="SEBO2F" />
                 <SID Name="SEBO1J" />
                 <SID Name="KATM2B" />
-                <STAR Name="KELB1A" ApproachName="ILS04L.NADUN" />
-                <STAR Name="OTMO2A" ApproachName="ILS04L.NADUN" />
-                <STAR Name="PBC2C" ApproachName="ILS04L.NADUN" />
-                <STAR Name="TORE1A" ApproachName="ILS04L.NADUN" />
-                <STAR Name="VITO2A" ApproachName="ILS04L.NADUN" />
+                <STAR Name="KELB1A" ApproachName="ILS04LZ.NADUN" />
+                <STAR Name="OTMO2A" ApproachName="ILS04LZ.NADUN" />
+                <STAR Name="PBC2C" ApproachName="ILS04LZ.NADUN" />
+                <STAR Name="TORE1A" ApproachName="ILS04LZ.NADUN" />
+                <STAR Name="VITO2A" ApproachName="ILS04LZ.NADUN" />
             </Runway>
             <Runway Name="22C" DataRunway="22C">
                 <SID Name="ATUR2E" />
@@ -1333,11 +1333,11 @@
                 <SID Name="OVAG2G" />
                 <SID Name="SEBO2G" />
                 <SID Name="KATM2C" />
-                <STAR Name="KELB1B" ApproachName="ILS22C.EMOXI" />
-                <STAR Name="OTIG1A" ApproachName="ILS22C.EMOXI" />
-                <STAR Name="OTMO1B" ApproachName="ILS22C.EMOXI" />
-                <STAR Name="TORE1B" ApproachName="ILS22C.EMOXI" />
-                <STAR Name="VITO1B" ApproachName="ILS22C.EMOXI" />
+                <STAR Name="KELB1B" ApproachName="ILS22CZ.EMOXI" />
+                <STAR Name="OTIG1A" ApproachName="ILS22CZ.EMOXI" />
+                <STAR Name="OTMO1B" ApproachName="ILS22CZ.EMOXI" />
+                <STAR Name="TORE1B" ApproachName="ILS22CZ.EMOXI" />
+                <STAR Name="VITO1B" ApproachName="ILS22CZ.EMOXI" />
             </Runway>
             <Runway Name="22R" DataRunway="22R">
                 <SID Name="ATUR2F" />
@@ -1352,11 +1352,11 @@
                 <SID Name="OVAG2H" />
                 <SID Name="SEBO2H" />
                 <SID Name="KATM2D" />
-                <STAR Name="KELB1B" ApproachName="ILS22R.EMOXI" />
-                <STAR Name="OTIG1A" ApproachName="ILS22R.EMOXI" />
-                <STAR Name="OTMO1B" ApproachName="ILS22R.EMOXI" />
-                <STAR Name="TORE1B" ApproachName="ILS22R.EMOXI" />
-                <STAR Name="VITO1B" ApproachName="ILS22R.EMOXI" />
+                <STAR Name="KELB1B" ApproachName="ILS22RZ.EMOXI" />
+                <STAR Name="OTIG1A" ApproachName="ILS22RZ.EMOXI" />
+                <STAR Name="OTMO1B" ApproachName="ILS22RZ.EMOXI" />
+                <STAR Name="TORE1B" ApproachName="ILS22RZ.EMOXI" />
+                <STAR Name="VITO1B" ApproachName="ILS22RZ.EMOXI" />
             </Runway>
         </Airport>
         <Airport Name="MMSP">
@@ -9050,24 +9050,24 @@
             <Route>NADUN SM03S SM04S SM05S SM07S</Route>
         </Approach>
         <!-- MMSM-IAC-2 -->
-        <Approach Name="ILS04L.BENAX" Airport="MMSM" Runway="04L">
+        <Approach Name="ILS04LZ.BENAX" Airport="MMSM" Runway="04L">
             <Route>NADUN SM03E SM03N SM04N SM05N SM07N</Route>
         </Approach>
-        <Approach Name="ILS04L.NADUN" Airport="MMSM" Runway="04L">
+        <Approach Name="ILS04LZ.NADUN" Airport="MMSM" Runway="04L">
             <Route>NADUN SM03N SM04N SM05N SM07N</Route>
         </Approach>
         <!-- MMSM-IAC-3 -->
-        <Approach Name="ILS22C.DUNIS" Airport="MMSM" Runway="22C">
+        <Approach Name="ILS22CZ.DUNIS" Airport="MMSM" Runway="22C">
             <Route>DUNIS SM42N SM43N</Route>
         </Approach>
-        <Approach Name="ILS22C.EMOXI" Airport="MMSM" Runway="22C">
+        <Approach Name="ILS22CZ.EMOXI" Airport="MMSM" Runway="22C">
             <Route>EMOXI SM42N SM43N</Route>
         </Approach>
         <!-- MMSM-IAC-4 -->
-        <Approach Name="ILS22R.DUNIS" Airport="MMSM" Runway="22R">
+        <Approach Name="ILS22RZ.DUNIS" Airport="MMSM" Runway="22R">
             <Route>DUNIS SM32N SM33N</Route>
         </Approach>
-        <Approach Name="ILS22R.EMOXI" Airport="MMSM" Runway="22R">
+        <Approach Name="ILS22RZ.EMOXI" Airport="MMSM" Runway="22R">
             <Route>EMOXI SM32N SM33N</Route>
         </Approach>
         <!--MMSP-->
