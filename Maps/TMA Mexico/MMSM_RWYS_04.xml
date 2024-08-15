@@ -224,7 +224,7 @@
             <Point>SM07S</Point>      
         </Symbol>
     </Map>
-    <Map Type="System" Name="MMSM - Pistas 04 - ILS 04L" Priority="1" Center="+194440.700-0990053.200">
+    <Map Type="System" Name="MMSM - Pistas 04 - ILS Z 04L" Priority="1" Center="+194440.700-0990053.200">
         <Line Pattern="Solid">NADUN/SM03N/SM04N/SM05N/SM07N/+194402.690-0990222.910</Line>
         <Line Pattern="Solid">BENAX/SM03E</Line>
         <Symbol Type="HollowStar">
