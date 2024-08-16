@@ -1510,7 +1510,7 @@
             <Maps>
                 <Map Name="TMA Tuxtla Gutierrez/Aeropuerto - Pistas" />
                 <Map Name="TMA Tuxtla Gutierrez/Aeropuerto - Area Terminal (TMA)" />
-
+				<Map Name="TMA Tuxtla Gutierrez/MMTG - Zona de Control (CTR)" />
                 <Map Name="TMA Tuxtla Gutierrez/Aeropuerto - Fijos 32" />
                 <Map Name="TMA Tuxtla Gutierrez/Aeropuerto - Fijos 32 (Nombres)" />
 
@@ -2550,7 +2550,7 @@
             <Maps>
                 <Map Name="TMA Guadalajara/Aeropuerto - Pistas" />
                 <Map Name="TMA Guadalajara/Aeropuerto - Minimas de Vectoreo" />
-                <Map Name="TMA Guadalajara/Aeropuerto - Zona de Control (CTR)" />
+                <Map Name="TMA Guadalajara/MMGL - Zona de Control (CTR)" />
 
                 <Map Name="TMA Guadalajara/Pista 29 - ILS Z 29" />
 
@@ -2582,7 +2582,7 @@
             <Maps>
                 <Map Name="TMA Guadalajara/Aeropuerto - Pistas" />
                 <Map Name="TMA Guadalajara/Aeropuerto - Minimas de Vectoreo" />
-                <Map Name="TMA Guadalajara/Aeropuerto - Zona de Control (CTR)" />
+                <Map Name="TMA Guadalajara/MMGL - Zona de Control (CTR)" />
 
                 <Map Name="TMA Guadalajara/Pistas 29 - ILS X 29L" />
 
@@ -2614,7 +2614,7 @@
             <Maps>
                 <Map Name="TMA Guadalajara/Aeropuerto - Pistas" />
                 <Map Name="TMA Guadalajara/Aeropuerto - Minimas de Vectoreo" />
-                <Map Name="TMA Guadalajara/Aeropuerto - Zona de Control (CTR)" />
+                <Map Name="TMA Guadalajara/MMGL - Zona de Control (CTR)" />
 
                 <Map Name="TMA Guadalajara/Pistas 29 - ILS X 29L" />
 
@@ -2646,7 +2646,7 @@
             <Maps>
                 <Map Name="TMA Guadalajara/Aeropuerto - Pistas" />
                 <Map Name="TMA Guadalajara/Aeropuerto - Minimas de Vectoreo" />
-                <Map Name="TMA Guadalajara/Aeropuerto - Zona de Control (CTR)" />
+                <Map Name="TMA Guadalajara/MMGL - Zona de Control (CTR)" />
 
                 <Map Name="TMA Guadalajara/Pistas 29 - ILS X 29L" />
 
@@ -2683,7 +2683,7 @@
                 <Map Name="TMA Guadalajara/Aeropuerto - Pistas" />
                 <Map Name="TMA Guadalajara/Aeropuerto - Minimas de Vectoreo" />
                 <Map Name="TMA Guadalajara/Aeropuerto - Area Terminal (TMA)" />
-                <Map Name="TMA Guadalajara/Aeropuerto - Zona de Control (CTR)" />
+                <Map Name="TMA Guadalajara/MMGL - Zona de Control (CTR)" />
 
                 <Map Name="TMA Guadalajara/Pistas 29 - Llegadas RNAV" />
                 <Map Name="TMA Guadalajara/Pistas 29 - Llegadas RNAV (Nombres)" />
@@ -2727,7 +2727,7 @@
                 <Map Name="TMA Guadalajara/Aeropuerto - Pistas" />
                 <Map Name="TMA Guadalajara/Aeropuerto - Minimas de Vectoreo" />
                 <Map Name="TMA Guadalajara/Aeropuerto - Area Terminal (TMA)" />
-                <Map Name="TMA Guadalajara/Aeropuerto - Zona de Control (CTR)" />
+                <Map Name="TMA Guadalajara/MMGL - Zona de Control (CTR)" />
 
                 <Map Name="TMA Guadalajara/Pistas 29 - Llegadas RNAV" />
                 <Map Name="TMA Guadalajara/Pistas 29 - Llegadas RNAV (Nombres)" />
@@ -3113,7 +3113,7 @@
                 <Map Name="TMA Mexico/Aeropuerto - Rutas VFR" />
 
                 <Map Name="TMA Mexico/MMSM - Zona de Control (CTR)" />
-                <Map Name="TMA Mexico/MMSM - Pistas 04 - ILS 04L" />
+                <Map Name="TMA Mexico/MMSM - Pistas 04 - ILS Z 04L" />
                 <Map Name="TMA Mexico/MMSM - Pistas 04 - ILS 04C" />
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
@@ -3143,7 +3143,7 @@
                 <Map Name="TMA Mexico/Aeropuerto - Rutas VFR" />
 
                 <Map Name="TMA Mexico/MMSM - Zona de Control (CTR)" />
-                <Map Name="TMA Mexico/MMSM - Pistas 04 - ILS 04L" />
+                <Map Name="TMA Mexico/MMSM - Pistas 04 - ILS Z 04L" />
                 <Map Name="TMA Mexico/MMSM - Pistas 04 - ILS 04C" />
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
@@ -3173,7 +3173,7 @@
                 <Map Name="TMA Mexico/Aeropuerto - Rutas VFR" />
 
                 <Map Name="TMA Mexico/MMSM - Zona de Control (CTR)" />
-                <Map Name="TMA Mexico/MMSM - Pistas 04 - ILS 04L" />
+                <Map Name="TMA Mexico/MMSM - Pistas 04 - ILS Z 04L" />
                 <Map Name="TMA Mexico/MMSM - Pistas 04 - ILS 04C" />
 
                 <Map Name="Universal/Geografia - Linea de Costa" />
@@ -4536,7 +4536,7 @@
         </Position>
 
         <!-- TMA Juarez -->
-        <Position Name="Torre Juarez - CSTW1" Type="ASD" DefaultCenter="+313810.896-1062543.544" DefaultRange="20" MagneticVariation="-10" VisibilityRange="100">
+        <Position Name="Torre Juarez - CSTW1" Type="ASD" DefaultCenter="+313810.896-1062543.544" DefaultRange="35" MagneticVariation="-10" VisibilityRange="100">
             <Sectors>
                 <Sector Name="CSTW1" />
             </Sectors>
