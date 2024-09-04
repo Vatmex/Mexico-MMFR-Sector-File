@@ -1491,7 +1491,6 @@
                 <SID Name="NUDA1G" />
                 <SID Name="ILUB1H" />
                 <SID Name="TAKU1A" />
-                <SID Name="XOPG1A" />
                 <SID Name="XOLP1A" />
                 <SID Name="ROTG1G" />
                 <SID Name="ALSU1A" />
@@ -9374,9 +9373,6 @@
         </SID>
         <SID Name="TAKU1A" Airport="MMTL" Runways="12">
             <Route Runway="12">TL620 TL621 TL622 TL623 TL624 TL625 TL626 TAKUX</Route>
-        </SID>
-        <SID Name="XOPG1A" Airport="MMTL" Runways="12">
-            <Route Runway="12">TL640 TL641 TL642 TL644 PIROK TL510 TL648 NOSUG XOPGI</Route>
         </SID>
         <SID Name="XOLP1A" Airport="MMTL" Runways="12">
             <Route Runway="12">TL640 TL641 TL642 XOLPO</Route>
